@@ -1,0 +1,66 @@
+slots:
+  price:
+    type: text
+  product_name:
+    type: text
+  color:
+    type: text
+  rom:
+    type: text
+  ram:
+    type: text
+  product_company:
+    type: text
+
+entities:
+  - product_name
+  - color
+  - rom
+  - ram
+  - price
+  - product_company
+
+intents:
+  - greet
+  - goodbye
+  - buy
+  - thanks
+  - ask_info
+  - need_help
+  - ask_price
+  - ask_type_product
+  - ask_list_product
+
+responses:
+  utter_default:
+    - text: "Xin lỗi! Mình chưa hiểu ý bạn. Bạn vui lòng thử lại."
+
+  utter_greet:
+    - text: "Xin chào, bạn khỏe chứ!"
+    - text: "Chào mừng bạn!"
+    - text: "Cảm ơn bạn đã ghé thăm"
+
+  utter_goodbye:
+    - text: "Chào tạm biệt!"
+    - text: "Rất mong được gặp lại bạn"
+
+  utter_thanks:
+    - text: "Không có gì!"
+    - text: "Mình rất vui vì có thể giúp bạn"
+
+  utter_buy:
+    - text: "cảm ơn bạn đã ủng hộ cửa hàng"
+
+actions:
+  - utter_default
+  - utter_goodbye
+  - utter_greet
+  - utter_thanks
+  - action_answer_price
+  - action_list_product
+  - action_product_infor
+  - action_show_list_product
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
