@@ -21,7 +21,7 @@ def getData(query:str):
                 host="localhost",
                 user="root",
                 passwd="1649",
-                database="TGDD",
+                database="FPTShop",
                 auth_plugin='caching_sha2_password'
                 )
 

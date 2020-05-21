@@ -49,7 +49,7 @@ class ActionAnswerPrice(Action):
         rom_input = tracker.get_slot('rom')
         if product_name_input:
             productName = productNameAnalysis(product_name_input)
-            query = "select * from TGDD.GiaDienThoai where ten like '%"+productName+"%'"
+            query = "select * from FPTShop.DienThoai where ten like '%"+productName+"%'"
             '''
         if ram_input:
             ram = romramAnalysis(ram_input)
@@ -82,7 +82,7 @@ class ActionListProduct(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        phone_company = getData("select * from TGDD.HangDienThoai")
+        phone_company = getData("select * from FPTShop.HangDienThoai")
         template_items = []
         for item in phone_company:
             payload = "Danh sách sản phẩm của " + item['ten']
@@ -132,7 +132,7 @@ class ActionProductInfor(Action):
         product_name_input = tracker.get_slot('product_name')
         if product_name_input:
             product_name = productNameAnalysis(product_name_input)
-            query = "select * from TGDD.DienThoai where ten like '%"+product_name+"%';"
+            query = "select * from FPTShop.DienThoai where ten like '%"+product_name+"%';"
             data = getData(query)
 
             if len(data) == 1:
@@ -191,7 +191,7 @@ class ActionShowListProduct(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         product_company = tracker.get_slot('product_company')
-        query = "select * from TGDD.DienThoai where ten like '%" +product_company+"%' limit 9;"
+        query = "select * from FPTShop.DienThoai where ten like '%" +product_company+"%' limit 9;"
         phone = getData(query)
         template_items = []
         for item in phone:
