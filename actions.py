@@ -61,16 +61,47 @@ class ActionAnswerPrice(Action):
         # if price_input:
         #     price = priceAnalysis(price_input)
         #     query = query + "and gia like '%"+price+"%'"
-        query = query + ";"
+        query = query + "limit 9;"
         data = getData(query)
         if data:
-            ten = str(data[0]['ten']).strip("\n")
-            gia = str(data[0]['gia']).strip("\n")
-            response_message = "Giá của sản phẩm {} là: {}".format(ten,gia)
-        else:
-            response_message = "Rtất tiếc chúng tôi chưa hỗ  trợ sản phẩm này"
+            template_items = []
+            for item in data:
+                if item['gia'] and item['gia'].find("None") == -1:
+                    gia = item['gia']
+                else:
+                    gia = "Chưa có thông tin về giá"
+                template_item = {
+                    "title": item['ten'],
+                    "image_url": item['url_img'],
+                    "subtitle": "Giá: {}".format(gia),
+                    "default_action": {
+                        "type": "web_url",
+                        "url": item['url_img'],
+                        "webview_height_ratio": "full"
+                    },
+                    "buttons": [
+                        {
+                            "type":"postback",
+                            "title":"Đăt mua {}".format(item['ten']),
+                            "payload":"Đăt mua {}".format(item['ten']) 
+                        }
+                    ]
+                }
+                template_items.append(template_item)
+            message_str = {
+                "attachment": {
+                    "type": "template",
+                    "payload": {
+                        "template_type": "generic",
+                        "elements": template_items
 
-        dispatcher.utter_message(response_message)
+                    }
+                }
+            }
+            ret_text = "Giá của sản phẩm {}".format(productName)
+            dispatcher.utter_message(text=ret_text, json_message=message_str)
+        else:
+            dispatcher.utter_message("Rất tiếc chúng tôi chưa hỗ  trợ sản phẩm này")
         print("chạy action_answer_price")
         return
 
@@ -82,7 +113,7 @@ class ActionListProduct(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        phone_company = getData("select * from FPTShop.HangDienThoai")
+        phone_company = getData("select * from FPTShop.HangDienThoai limit 9")
         template_items = []
         for item in phone_company:
             payload = "Danh sách sản phẩm của " + item['ten']
@@ -115,7 +146,7 @@ class ActionListProduct(Action):
                 }
             }
         }
-        ret_text = "Hi! You can choose from below items:"
+        ret_text = "chúng tôi có sản phẩm của những hãng sau"
         # print(message_str)
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_list_product")
@@ -195,15 +226,15 @@ class ActionShowListProduct(Action):
         phone = getData(query)
         template_items = []
         for item in phone:
-            if item['gia']:
-                gia = item['gia'].strip("₫")
+            if item['gia'] and item['gia'].find("None") == -1:
+                gia = item['gia']
             else:
                 gia = "Chưa có thông tin về giá"
             
             template_item = {
                 "title": item['ten'],
                 "image_url": item['url_img'],
-                "subtitle": gia,
+                "subtitle": "Giá: " +gia,
                 "default_action": {
                     "type": "web_url",
                     "url": item['url_img'],
@@ -234,7 +265,7 @@ class ActionShowListProduct(Action):
                 }
             }
         }
-        ret_text = "Bạn có thể chọn một trong các sản phẩm sau"
+        ret_text = "Chúng tôi có các sản phẩm sau và rất nhiều sản phẩm nữa. Nếu chưa nhìn thấy sản phẩm mình mong muốn hãy thủ nhập tên sản phẩm đó"
         # print(query)
         # print(phone)
         dispatcher.utter_message(text=ret_text, json_message=message_str)

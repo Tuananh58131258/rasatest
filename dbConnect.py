@@ -40,7 +40,8 @@ def getData(query:str):
             return []
 
 # test the file before integrating with the bot by uncommenting the below line.
-# obj = getData("SELECT ten FROM TGDD.DienThoai where ten like '%oppo f15%'")
+# obj = getData("SELECT gia FROM FPTShop.DienThoai ;")
 # for item in obj:
-    # print(item['gia'].strip("₫"))
+#     if item['gia'].find("None") >-1:
+#         print("co")
 # print(obj[0])
