@@ -40,8 +40,26 @@ def getData(query:str):
             return []
 
 # test the file before integrating with the bot by uncommenting the below line.
-# obj = getData("SELECT gia FROM FPTShop.DienThoai ;")
-# for item in obj:
-#     if item['gia'].find("None") >-1:
-#         print("co")
+obj = getData("SELECT DISTINCT rom FROM FPTShop.DienThoai;")
+fobj = open('rom.txt', 'w')
+for item in obj:
+#     if item['ten'].find('Gear') ==-1 and item['ten'].find('watch') ==-1:
+#         temp = item['ten'].replace("Samsung","ss").replace("Galaxy","" ).replace("Note","").replace("  "," ")
+        # print(item['ten'].lower())
+    if str(item['rom']).find("Không") ==-1 and str(item['rom']).find("None")==-1:
+    # print("co")
 # print(obj[0])
+        fobj.write(str(item['rom']).strip('\t') + '\n')
+        fobj.write(str(item['rom']).lower().strip('\t') + '\n')
+fobj.close()
+# import random
+
+# n = len(obj)
+# truoc = ['', 'giá của',
+#          'cho hỏi giá của']
+# sau = ['', 'là bao nhiêu', 'bao nhiêu tiền', 'hiện nay là bao nhiêu']
+# for i in range(1, 30):
+#         temp = truoc[random.randint(0,2)]+" ["+obj[random.randint(0,n-1)]['ten'].strip('\n') + "](product_name) "+ sau[random.randint(0,3)]
+#         temp = temp.strip(' ')
+#         value = "- "+temp
+#         print(value)

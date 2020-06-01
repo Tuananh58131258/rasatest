@@ -67,9 +67,9 @@ class ActionAnswerPrice(Action):
             template_items = []
             for item in data:
                 if item['gia'] and item['gia'].find("None") == -1:
-                    gia = item['gia']
+                    gia = "{:,} vnđ".format(int(item['gia']))
                 else:
-                    gia = "Chưa có thông tin về giá"
+                    gia = "Đang cập nhật"
                 template_item = {
                     "title": item['ten'],
                     "image_url": item['url_img'],
@@ -84,6 +84,11 @@ class ActionAnswerPrice(Action):
                             "type":"postback",
                             "title":"Đăt mua {}".format(item['ten']),
                             "payload":"Đăt mua {}".format(item['ten']) 
+                        },
+                        {
+                            "type":"postback",
+                            "title":"Cấu hình chi tiết",
+                            "payload":"Cấu hình của {} như thế nào".format(item['ten']) 
                         }
                     ]
                 }
@@ -102,7 +107,7 @@ class ActionAnswerPrice(Action):
             dispatcher.utter_message(text=ret_text, json_message=message_str)
         else:
             dispatcher.utter_message("Rất tiếc chúng tôi chưa hỗ  trợ sản phẩm này")
-        print("chạy action_answer_price")
+        print("chạy action_answer_price " + productName + " " + product_name_input)
         return
 
 

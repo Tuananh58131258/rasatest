@@ -6,13 +6,13 @@ def productNameAnalysis(productName: str):
     if data.find("ip") > -1 and data.find("iphone") == -1:
         temp = data.replace("ip", "iphone")
         return temp
-    if data.find("ss") > -1 and data.find("galaxy") == -1:
+    elif data.find("ss") > -1 and data.find("galaxy") == -1:
         temp = data.replace("ss", "samsung galaxy")
         return temp
-    if data.find("samsung") > -1 and data.find("galaxy") == -1:
+    elif data.find("samsung") > -1 and data.find("galaxy") == -1:
         temp = data.replace("samsung", "samsung galaxy")
         return temp
-    if data.find("ss") > -1 and data.find("galaxy") > -1:
+    elif data.find("ss") > -1 and data.find("galaxy") > -1:
         temp = data.replace("ss", "samsung")
         return temp
 
