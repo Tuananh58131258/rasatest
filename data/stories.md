@@ -39,11 +39,11 @@
  - action_product_infor
 
 ## ask in formation
-* ask_info{"product_name":"Realme C2 2GB-32GB"}
+* ask_info{"product_name":"Realme C2"}
  - action_product_infor
 
  ## ask in formation
-* ask_info{"product_name":"iPhone 11 Pro 64GB"}
+* ask_info{"product_name":"iPhone 11 Pro"}
  - action_product_infor
 
  ## ask in formation
@@ -82,5 +82,37 @@
  - utter_buy
 
 ## buy
-* buy{"product_name":"Realme C2 3GB-32GB"}
+* buy{"product_name":"Realme C2"}
  - utter_buy
+
+## ask price online
+* ask_price_online{"product_name":"Iphone 11 Pro Max","rom":"128GB"}
+ - action_answer_price
+
+## ask price online
+* ask_price_online{"product_name":"Samsung J2 Pro","rom":"128GB"}
+ - action_answer_price
+
+## ask price online
+* ask_price_online{"product_name":"Iphone XS Pro Max","rom":"128GB"}
+ - action_answer_price
+
+## ask price online
+* ask_price_online{"product_name":"Iphone 9","rom":"128GB"}
+ - action_answer_price
+
+## ask price online
+* ask_price_online{"product_name":"Iphone 11 Pro Max","rom":"128GB"}
+ - action_answer_price
+
+## ask price old
+* ask_price_old{"product_name":"Samsung J2 Pro","rom":"128GB"}
+ - action_answer_price
+
+## ask price old
+* ask_price_old{"product_name":"Iphone XS Pro Max","rom":"128GB"}
+ - action_answer_price
+
+## ask price old
+* ask_price_old{"product_name":"Iphone 9","rom":"128GB"}
+ - action_answer_price

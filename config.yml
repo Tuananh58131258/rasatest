@@ -1,8 +1,8 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: vi
 pipeline:
-  - name: WhitespaceTokenizer
+  - name: VietnameseTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -20,6 +20,7 @@ pipeline:
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: MemoizationPolicy
+  - name: KerasPolicy
   - name: TEDPolicy
     max_history: 5
     epochs: 100
