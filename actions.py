@@ -49,7 +49,7 @@ class ActionAnswerPrice(Action):
         rom_input = tracker.get_slot('rom')
         if product_name_input:
             productName = productNameAnalysis(product_name_input)
-            query = "select * from TGDD.GiaDienThoai where ten like '%"+productName+"%'"
+            query = "select * from FPTShop.DienThoai where ten like '%"+productName+"%'"
             '''
         if ram_input:
             ram = romramAnalysis(ram_input)
@@ -61,17 +61,53 @@ class ActionAnswerPrice(Action):
         # if price_input:
         #     price = priceAnalysis(price_input)
         #     query = query + "and gia like '%"+price+"%'"
-        query = query + ";"
+        query = query + "limit 9;"
         data = getData(query)
         if data:
-            ten = str(data[0]['ten']).strip("\n")
-            gia = str(data[0]['gia']).strip("\n")
-            response_message = "Giá của sản phẩm {} là: {}".format(ten,gia)
-        else:
-            response_message = "Rtất tiếc chúng tôi chưa hỗ  trợ sản phẩm này"
+            template_items = []
+            for item in data:
+                if item['gia'] and item['gia'].find("None") == -1:
+                    gia = "{:,} vnđ".format(int(item['gia']))
+                else:
+                    gia = "Đang cập nhật"
+                template_item = {
+                    "title": item['ten'],
+                    "image_url": item['url_img'],
+                    "subtitle": "Giá: {}".format(gia),
+                    "default_action": {
+                        "type": "web_url",
+                        "url": item['url_img'],
+                        "webview_height_ratio": "full"
+                    },
+                    "buttons": [
+                        {
+                            "type":"postback",
+                            "title":"Đăt mua {}".format(item['ten']),
+                            "payload":"Đăt mua {}".format(item['ten']) 
+                        },
+                        {
+                            "type":"postback",
+                            "title":"Cấu hình chi tiết",
+                            "payload":"Cấu hình của {} như thế nào".format(item['ten']) 
+                        }
+                    ]
+                }
+                template_items.append(template_item)
+            message_str = {
+                "attachment": {
+                    "type": "template",
+                    "payload": {
+                        "template_type": "generic",
+                        "elements": template_items
 
-        dispatcher.utter_message(response_message)
-        print("chạy action_answer_price")
+                    }
+                }
+            }
+            ret_text = "Giá của sản phẩm {}".format(productName)
+            dispatcher.utter_message(text=ret_text, json_message=message_str)
+        else:
+            dispatcher.utter_message("Rất tiếc chúng tôi chưa hỗ  trợ sản phẩm này")
+        print("chạy action_answer_price " + productName + " " + product_name_input)
         return
 
 class ActionListProduct(Action):
@@ -81,7 +117,7 @@ class ActionListProduct(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        phone_company = getData("select * from TGDD.HangDienThoai")
+        phone_company = getData("select * from FPTShop.HangDienThoai limit 9")
         template_items = []
         for item in phone_company:
             payload = "Danh sách sản phẩm của " + item['ten']
@@ -114,7 +150,7 @@ class ActionListProduct(Action):
                 }
             }
         }
-        ret_text = "Hi! You can choose from below items:"
+        ret_text = "chúng tôi có sản phẩm của những hãng sau"
         # print(message_str)
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_list_product")
@@ -130,7 +166,7 @@ class ActionProductInfor(Action):
         product_name_input = tracker.get_slot('product_name')
         if product_name_input:
             product_name = productNameAnalysis(product_name_input)
-            query = "select * from TGDD.DienThoai where ten like '%"+product_name+"%';"
+            query = "select * from FPTShop.DienThoai where ten like '%"+product_name+"%';"
             data = getData(query)
 
             if len(data) == 1:
@@ -189,19 +225,19 @@ class ActionShowListProduct(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         product_company = tracker.get_slot('product_company')
-        query = "select * from TGDD.DienThoai where ten like '%" +product_company+"%' limit 9;"
+        query = "select * from FPTShop.DienThoai where ten like '%" +product_company+"%' limit 9;"
         phone = getData(query)
         template_items = []
         for item in phone:
-            if item['gia']:
-                gia = item['gia'].strip("₫")
+            if item['gia'] and item['gia'].find("None") == -1:
+                gia = item['gia']
             else:
                 gia = "Chưa có thông tin về giá"
             
             template_item = {
                 "title": item['ten'],
                 "image_url": item['url_img'],
-                "subtitle": gia,
+                "subtitle": "Giá: " +gia,
                 "default_action": {
                     "type": "web_url",
                     "url": item['url_img'],
@@ -232,9 +268,31 @@ class ActionShowListProduct(Action):
                 }
             }
         }
-        ret_text = "Bạn có thể chọn một trong các sản phẩm sau"
+        ret_text = "Chúng tôi có các sản phẩm sau và rất nhiều sản phẩm nữa. Nếu chưa nhìn thấy sản phẩm mình mong muốn hãy thủ nhập tên sản phẩm đó"
         # print(query)
         # print(phone)
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_show_list_product")
         return
+<<<<<<< HEAD
+=======
+
+class ActionAnswerProduct(Action):
+    def name(self) -> Text:
+        return "action_answer_product"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        data1 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="from_price"))
+        data2 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="to_price"))
+        print("---------------------")
+        print('action answer product\n')
+        print(tracker.latest_message.get('text') + '\n')
+        print(str(data1)+str(data2)+'\n')
+        print("---------------------")
+        
+
+        return 
+>>>>>>> 7fe250d9a71f622adbf67dda9c1fbb2b0adc0f8d

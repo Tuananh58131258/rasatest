@@ -21,34 +21,656 @@
 - tks
 - cảm ơn nhiều
 - oke ad
-
+## lookup:product_name
+data/product_name.txt
+## lookup:ram
+data/ram.txt
+## lookup:rom
+data/rom.txt
+## lookup:price
+data/price.txt
 ## intent: ask_price
-<!-- hỏi giá đơn thuần -->
-- Dạ cho e hỏi [oppof1s 2017](product_name) giá bao nhiu v ạ
-- giá mua đứt chiếc [oppo f1s 2017](product_name) là bao nhiêu add
-- Giá hiện tại là [13490000](price) ah?
-- [Nokia 8](product_name) giá bao nhiêu vậy
-- [sony xzs](product_name) hiện nay là bao nhiêu tiền vậy
-- Giá [Nokia 8](product_name) bao nhiêu tiền
-- [ip 6s](product_name) bản [gray](color) [64 GB](rom) giá bao nhiêu
-- [ip XS Max](product_name) bản [gold](color) [128 GB](rom) giá bao nhiêu
-- [ip 11 Pro Max](product_name) bản [gray](color) [256 GB](rom) giá bao nhiêu
-- [ss j7 pro](product_name) giá bao nhiêu
-- [ss j2 pro](product_name) có giá bao nhiêu
-- [ss j3 pro](product_name) có giá bao nhiêu
-- [ss j5 prime](product_name) [64 GB](rom) có giá bao nhiêu
-- [ss A9 2019](product_name) bản màu [hồng](color) có giá bao nhiêu
-- Thế mua [s7 edge](product_name) giờ con [13 triệu](price) đúng ko vậy
-- giá của [ip 7 plus](product_name) rom [64 GB](rom) là [ba triệu tư](price) phải không ạ
-- giá của [ss a11](product_name) rom [64 GB](rom) là [bốn triệu](price) phải không ạ
-- giá của [oppo f1s](product_name) rom [64 GB](rom) là [năm triệu sáu](price) phải không ạ
-- giá của [ss a9](product_name) rom [64 GB](rom) là [ba triệu](price) phải không ạ
-- giá của [Nokia 8](product_name) rom [64 GB](rom) là [7,2 triệu](price) phải không ạ
-- giá của [ip 8 plus](product_name) rom [64 GB](rom) là [8.6 triệu](price) phải không ạ
-- giá của [ip 6s](product_name) rom [32 GB](rom) là [ba triệu tư](price) phải không ạ
-- [ss j7 pro](product_name) ram [3 GB](ram) giá bao nhiêu
-- [ss j2 pro](product_name) [6 GB](ram) có giá bao nhiêu
-- [ss j3 pro](product_name) [4 GB](ram) có giá bao nhiêu
+- sản phẩm [Realme 5 Pro](product_name) mua mới bao nhiêu tiền
+- điện thoại [Nokia 150 DS](product_name) giá mua mới là bao nhiêu
+- [realme x50 5g](product_name) giá khi mua mới
+- sản phẩm [OPPO Reno4](product_name) có giá bao nhiêu khi mua mới
+- [Vsmart Bee 3](product_name) có giá bao nhiêu khi mua mới
+- [Xiaomi Redmi 8A](product_name) mua mới bao nhiêu tiền
+- sản phẩm [Oppo Find X2 Pro](product_name) có giá bao nhiêu khi mua mới
+- điện thoại [Huawei Nova 5](product_name) mua mới bao nhiêu tiền
+- [Xiaomi Redmi K30 Pro](product_name) mua mới bao nhiêu tiền
+- điện thoại [Huawei Mate 30 RS Porsche Design](product_name) mua mới bao nhiêu tiền
+- [Nokia 8.3 5G](product_name) giá khi mua mới
+- [Xiaomi Redmi 8](product_name) mua mới có giá bao nhiêu
+- sản phẩm [Itel It5025](product_name) mua mới hiện nay có giá bao nhiêu
+- điện thoại [OPPO F15](product_name) mua mới có giá bao nhiêu
+- sản phẩm [realme 6i](product_name) có giá bao nhiêu khi mua mới
+- [Huawei Enjoy 10](product_name) mua mới hiện nay có giá bao nhiêu
+- [Nokia 210 DS](product_name) giá khi mua mới
+- [Samsung Galaxy Note 10](product_name) mua mới bao nhiêu tiền
+- sản phẩm [Itel It2163](product_name) giá khi mua mới
+- [Xiaomi Redmi Note 9 Pro](product_name) mua mới bao nhiêu tiền
+- sản phẩm [realme narzo 10](product_name) mua mới hiện nay có giá bao nhiêu
+- [Oppo A31](product_name) giá khi mua mới
+- sản phẩm [Energizer P20](product_name) giá khi mua mới
+- [Huawei Y9s](product_name) mua mới có giá bao nhiêu
+- [Huawei Mate 30 RS Porsche Design](product_name) mua mới có giá bao nhiêu
+- [Itel It5092](product_name) mua mới bao nhiêu tiền
+- điện thoại [Oppo Reno](product_name) mua mới bao nhiêu tiền
+- [Huawei Y8p](product_name) mua mới bao nhiêu tiền
+- điện thoại [Vivo X50e 5G](product_name) mua mới có giá bao nhiêu
+- sản phẩm [Vivo V19](product_name) mua mới có giá bao nhiêu
+- [realme 6](product_name) giá khi mua mới
+- sản phẩm [Masstel Play Music](product_name) mua mới có giá bao nhiêu
+- điện thoại [Huawei Mate 30](product_name) mua mới bao nhiêu tiền
+- sản phẩm [Masstel Izi 280](product_name) mua mới hiện nay có giá bao nhiêu
+- [ss a70s](product_name) giá mua mới là bao nhiêu
+- [Samsung Galaxy S20+](product_name) mua mới có giá bao nhiêu
+- [Vivo iQOO Neo 3](product_name) mua mới bao nhiêu tiền
+- sản phẩm [Samsung Galaxy A30](product_name) giá khi mua mới
+- [Masstel Play 30](product_name) mua mới bao nhiêu tiền
+- [ss a30](product_name) có giá bao nhiêu khi mua mới
+- điện thoại [Xiaomi Redmi Note 9s](product_name) mua mới hiện nay có giá bao nhiêu
+- sản phẩm [ss a50s](product_name) giá khi mua mới
+- điện thoại [Samsung Galaxy M31s](product_name) mua mới hiện nay có giá bao nhiêu
+- sản phẩm [Samsung Galaxy A10e](product_name) giá mua mới là bao nhiêu
+- điện thoại [realme 5i](product_name) mua mới bao nhiêu tiền
+- sản phẩm [Vivo iQOO Neo 3](product_name) mua mới hiện nay có giá bao nhiêu
+- điện thoại [Xiaomi Mi 9 Pro](product_name) mua mới có giá bao nhiêu
+- điện thoại [realme narzo 10](product_name) mua mới hiện nay có giá bao nhiêu
+- [Realme 5 Pro](product_name) có giá bao nhiêu khi mua mới
+- [Masstel Fami P25](product_name) [32GB](rom) [1 gb](ram) như thế nào
+- [Vivo Z5i](product_name) [32GB](rom) [12 gb](ram) như thế nào
+- giá sản phẩm [Nokia 9.3 PureView](product_name) [4 MB](ram) [256gb](rom) là bao nhiêu
+- giá điện thoại [Xiaomi Redmi Note 8 Pro](product_name) [4 mb](ram)như thế nào
+- [realme 6](product_name) [8GB](rom) [4 mb](ram) là bao nhiêu
+- giá sản phẩm [OPPO A12e](product_name) [256gb](rom) [3 gb](ram) là bao nhiêu
+- [Samsung Galaxy A60](product_name) [12 GB](ram)như thế nào
+- giá điện thoại [Huawei Mate 30 Pro 5G](product_name) [12 gb](ram) [512 gb](rom) là bao nhiêu
+- giá của điện thoại [OPPO Find X2](product_name) [256gb](rom) là bao nhiêu
+- giá của điện thoại [ss fold](product_name) [512 MB](ram) là bao nhiêu
+- giá của điện thoại [Xiaomi Mi Mix Alpha](product_name) [32GB](rom) là bao nhiêu
+- giá của điện thoại [realme 3](product_name) [4 MB](ram) [128gb](rom) là bao nhiêu
+- giá của sản phẩm [Vivo V19 Pro](product_name) [256 GB](rom)như thế nào
+- [OPPO Reno Ace 2](product_name) [128gb](rom) [6 gb](ram) là bao nhiêu
+- giá của điện thoại [Itel It5092](product_name) [8 GB](ram) là bao nhiêu
+- giá sản phẩm [realme x50m 5g](product_name) [32GB](rom) [8 GB](ram) là bao nhiêu
+- giá điện thoại [Samsung Galaxy S10 Lite](product_name) [128gb](rom)như thế nào
+- giá sản phẩm [ss m20](product_name) [16 gb](rom) là bao nhiêu
+- giá của điện thoại [Vsmart Bee 3](product_name) [64gb](rom)như thế nào
+- giá điện thoại [Huawei Mate 30 RS Porsche Design](product_name) [128gb](rom) [4 gb](ram) như thế nào
+- giá của điện thoại [ss a50s](product_name) [8 gb](ram) là bao nhiêu
+- giá của điện thoại [ss a70](product_name) [32 GB](rom) là bao nhiêu
+- giá của điện thoại [ss a60](product_name) [8GB](rom)như thế nào
+- giá của điện thoại [Vivo Nex 3](product_name) [16 gb](rom) [4mb](ram) là bao nhiêu
+- giá của điện thoại [ss watch active](product_name) [256 gb](rom) là bao nhiêu
+- giá của sản phẩm [Vivo Y9s](product_name) [4 mb](ram) [64 GB](rom) là bao nhiêu
+- giá điện thoại [Samsung Galaxy M51](product_name) [128gb](rom) là bao nhiêu
+- giá của sản phẩm [Huawei P40 Lite](product_name) [8gb](rom)như thế nào
+- giá của điện thoại [ss a21](product_name) [16 gb](rom) [1 gb](ram) là bao nhiêu
+- giá của điện thoại [ss 20+](product_name) [2 GB](ram)như thế nào
+- [ss a30](product_name) [4 gb](ram) là bao nhiêu
+- giá sản phẩm [Vivo Z5i](product_name) [8 mb](ram) là bao nhiêu
+- giá sản phẩm [Realme C3](product_name) [3 GB](ram) [8gb](rom) là bao nhiêu
+- giá điện thoại [Samsung Galaxy A01](product_name) [256 GB](rom)như thế nào
+- giá sản phẩm [ss s20+](product_name) [512 mb](ram) là bao nhiêu
+- giá điện thoại [Nokia 800 Tough](product_name) [32 GB](rom) [32 mb](ram) là bao nhiêu
+- giá của sản phẩm [Samsung Galaxy A20](product_name) [3 GB](ram)như thế nào
+- giá điện thoại [Masstel Izi 112](product_name) [16 gb](rom) là bao nhiêu
+- giá điện thoại [Xiaomi Mi 9 Pro 5G](product_name) [256 gb](rom) [1 GB](ram) như thế nào
+- giá của điện thoại [Vivo iQOO Neo 3](product_name) [8GB](rom) là bao nhiêu
+- [Huawei Y5p](product_name) [12 GB](ram) [512GB](rom) là bao nhiêu
+- giá của điện thoại [Masstel Play Max](product_name) [32 mb](ram) là bao nhiêu
+- giá sản phẩm [ss 10](product_name) [8gb](rom) là bao nhiêu
+- giá của điện thoại [Huawei Y7p](product_name) [1 GB](ram)như thế nào
+- giá sản phẩm [Nokia N150](product_name) [512 gb](rom) [3 GB](ram) như thế nào
+- giá của sản phẩm [OPPO A11](product_name) [8gb](rom) [32 mb](ram) là bao nhiêu
+- giá điện thoại [Energizer E12](product_name) [2 GB](ram)như thế nào
+- giá của sản phẩm [Vivo S6](product_name) [8 gb](ram)như thế nào
+- giá sản phẩm [Nokia 3.2](product_name) [256gb](rom)như thế nào
+- giá của điện thoại [Realme 6i](product_name) [3 gb](ram)như thế nào
+- giá của điện thoại [Xiaomi Mi 9 Pro 5G](product_name) [2 GB](ram) [16 gb](rom) như thế nào
+- giá sản phẩm [Xiaomi Mi 9 Pro 5G](product_name) [3 gb](ram) [32 gb](rom) như thế nào
+- giá điện thoại [ss a60](product_name) [3 GB](ram)như thế nào
+- giá điện thoại [Oppo Find X2 Pro](product_name) [16 GB](rom) là bao nhiêu
+- giá của sản phẩm [Vsmart Joy 3](product_name) [8 GB](ram) là bao nhiêu
+- giá của điện thoại [Samsung Galaxy A70s](product_name) [128gb](rom) [2 gb](ram) là bao nhiêu
+- giá của sản phẩm [Vivo Nex 3](product_name) [3 GB](ram) [64 GB](rom) là bao nhiêu
+- giá sản phẩm [ss a10s](product_name) [16 GB](rom) [32 mb](ram) như thế nào
+- giá của sản phẩm [Xiaomi Redmi Note 9 Pro](product_name) [64gb](rom) [4mb](ram) là bao nhiêu
+- giá điện thoại [Huawei Nova 7 SE 5G](product_name) [4MB](ram) là bao nhiêu
+- giá của điện thoại [Samsung Galaxy M01](product_name) [64gb](rom) [4 gb](ram) là bao nhiêu
+- giá của điện thoại [Vivo X50e 5G](product_name) [32 GB](rom) là bao nhiêu
+- giá của sản phẩm [ss a20e](product_name) [3 gb](ram) là bao nhiêu
+- giá điện thoại [iPhone 11 Pro](product_name) [4mb](ram)như thế nào
+- giá sản phẩm [ss a30](product_name) [256 GB](rom) [4 mb](ram) như thế nào
+- giá của sản phẩm [Masstel Izi 280](product_name) [4 mb](ram)như thế nào
+- giá của điện thoại [Vivo Y9s](product_name) [16GB](rom) [3 gb](ram) như thế nào
+- giá điện thoại [ss a71](product_name) [16 GB](rom) là bao nhiêu
+- giá điện thoại [Samsung Galaxy S10e](product_name) [1 GB](ram)như thế nào
+- giá sản phẩm [Masstel Hapi 10 Fami](product_name) [8 MB](ram) [32gb](rom) như thế nào
+- giá của sản phẩm [Masstel X1](product_name) [16gb](rom)như thế nào
+- giá của điện thoại [Samsung Galaxy S20 Ultra](product_name) [64 gb](rom) [12 gb](ram) là bao nhiêu
+- giá điện thoại [realme 6](product_name) [3 gb](ram) [64 GB](rom) là bao nhiêu
+- giá sản phẩm [Samsung Galaxy S10e](product_name) [12 GB](ram) là bao nhiêu
+- giá của điện thoại [Vivo Apex](product_name) [32gb](rom) [6 GB](ram) như thế nào
+- giá điện thoại [Itel it2171](product_name) [32gb](rom)như thế nào
+- giá của sản phẩm [Masstel Play Music](product_name) [8gb](rom) là bao nhiêu
+- giá của sản phẩm [ss m01](product_name) [4MB](ram) là bao nhiêu
+- giá điện thoại [ss 10+](product_name) [2 gb](ram) [8gb](rom) là bao nhiêu
+- giá sản phẩm [OPPO A92s](product_name) [32gb](rom) [8 gb](ram) như thế nào
+- giá sản phẩm [Huawei Y5p](product_name) [4 GB](ram) [16gb](rom) như thế nào
+- giá của sản phẩm [Masstel iZi 206](product_name) [32 gb](rom) [512 MB](ram) là bao nhiêu
+- giá sản phẩm [Masstel Fami 9](product_name) [32 gb](rom) [12 GB](ram) là bao nhiêu
+- giá của điện thoại [Samsung Galaxy A60](product_name) [256gb](rom) [3 gb](ram) là bao nhiêu
+- giá điện thoại [Nokia 9.2](product_name) [512 GB](rom) là bao nhiêu
+- giá điện thoại [Samsung Galaxy M21](product_name) [512 GB](rom) [4 gb](ram) như thế nào
+- giá của điện thoại [Realme 6 Pro](product_name) [512gb](rom)như thế nào
+- giá điện thoại [Samsung Galaxy A51](product_name) [32gb](rom) [4 MB](ram) là bao nhiêu
+- giá điện thoại [Xiaomi Mi 10 Se](product_name) [256 gb](rom)như thế nào
+- giá của điện thoại [Huawei P30 Lite New Edition](product_name) [8gb](rom) là bao nhiêu
+- giá của sản phẩm [Vivo X50](product_name) [128 GB](rom) là bao nhiêu
+- giá điện thoại [OPPO A1k](product_name) [4 mb](ram) [64 gb](rom) như thế nào
+- giá của sản phẩm [OPPO F15](product_name) [3 GB](ram) [256gb](rom) là bao nhiêu
+- giá của điện thoại [Vivo NEX 3S 5G](product_name) [2 gb](ram) [128 gb](rom) là bao nhiêu
+- giá của điện thoại [Xiaomi Black Shark 2](product_name) [64 gb](rom) là bao nhiêu
+- giá của sản phẩm [ss a20](product_name) [12 GB](ram) [8GB](rom) là bao nhiêu
+- giá điện thoại [Oppo A31](product_name) [4 mb](ram) [16 gb](rom) là bao nhiêu
+- giá của điện thoại [Huawei Mate 30 Pro 5G](product_name) [3 GB](ram) là bao nhiêu
+- giá của sản phẩm [ss a60](product_name) là bao nhiêu
+- giá sản phẩm [Samsung Galaxy M11](product_name) như thế nào
+- giá điện thoại [Vivo X50 Lite](product_name) là bao nhiêu
+- giá của điện thoại [Samsung Galaxy S10e](product_name) là bao nhiêu
+- giá của điện thoại [Vivo X50](product_name) như thế nào
+- giá của sản phẩm [Samsung Galaxy Note 10+](product_name) như thế nào
+- giá của điện thoại [ss a41](product_name) như thế nào
+- giá của sản phẩm [realme 5 pro](product_name) là bao nhiêu
+- giá của điện thoại [ss a20e](product_name) là bao nhiêu
+- giá điện thoại [ss m21](product_name) là bao nhiêu
+- giá của sản phẩm [ss a20e](product_name) là bao nhiêu
+- giá của sản phẩm [Samsung Galaxy S20 Ultra](product_name) là bao nhiêu
+- giá sản phẩm [ss 20+](product_name) như thế nào
+- giá điện thoại [Vivo Y50](product_name) như thế nào
+- giá của điện thoại [Huawei Nova 5i](product_name) như thế nào
+- giá của điện thoại [realme 6i](product_name) như thế nào
+- giá điện thoại [Realme 6i](product_name) là bao nhiêu
+- giá điện thoại [Huawei Mate Xs](product_name) là bao nhiêu
+- giá điện thoại [realme 6](product_name) như thế nào
+- giá sản phẩm [Samsung Galaxy A70](product_name) như thế nào
+- giá của điện thoại [Nokia 3.2](product_name) như thế nào
+- giá sản phẩm [Vivo S1 Pro](product_name) là bao nhiêu
+- giá của sản phẩm [iPhone 6s Plus](product_name) là bao nhiêu
+- giá sản phẩm [Huawei Y6s](product_name) là bao nhiêu
+- giá của sản phẩm [Nokia 800 Tough](product_name) như thế nào
+- giá của điện thoại [Huawei Nova 5](product_name) là bao nhiêu
+- giá của điện thoại [Xiaomi Mi Note 10 Lite](product_name) như thế nào
+- giá điện thoại [Xiaomi Redmi K30 Pro](product_name) là bao nhiêu
+- giá của điện thoại [Nokia 3.2](product_name) như thế nào
+- giá của điện thoại [Vivo Y50](product_name) là bao nhiêu
+- giá của sản phẩm [Nokia 5.3](product_name) như thế nào
+- giá điện thoại [Realme 5i](product_name) như thế nào
+- giá sản phẩm [Vsmart Star](product_name) là bao nhiêu
+- giá sản phẩm [ss a60](product_name) như thế nào
+- giá điện thoại [Huawei Mate 30](product_name) như thế nào
+- giá điện thoại [Samsung Galaxy A51](product_name) là bao nhiêu
+- giá sản phẩm [Realme X50 Pro Player Edition](product_name) là bao nhiêu
+- giá của điện thoại [realme 6](product_name) là bao nhiêu
+- giá của điện thoại [Vivo Y3](product_name) như thế nào
+- giá điện thoại [Huawei Y7p](product_name) là bao nhiêu
+- giá điện thoại [realme x50 5g](product_name) như thế nào
+- giá sản phẩm [Xiaomi Redmi K30 5G](product_name) là bao nhiêu
+- giá của sản phẩm [Samsung Galaxy Note 10](product_name) như thế nào
+- giá sản phẩm [Samsung Galaxy M40](product_name) là bao nhiêu
+- giá sản phẩm [Vivo Z5i](product_name) là bao nhiêu
+- giá của sản phẩm [Vivo X50 Lite](product_name) là bao nhiêu
+- giá của sản phẩm [Samsung Galaxy M01](product_name) là bao nhiêu
+- giá điện thoại [Samsung Galaxy A51 5G](product_name) là bao nhiêu
+- giá của sản phẩm [Vivo V19](product_name) là bao nhiêu
+- [ss m11](product_name) hiện nay có giá bao nhiêu
+- [ss m10s](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [Itel It2163](product_name) có giá bao nhiêu
+- [Samsung Galaxy S10](product_name) có giá bao nhiêu
+- sản phẩm [Nokia 800 Tough](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [Xiaomi Redmi 8](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [Xiaomi Redmi K30](product_name) bao nhiêu tiền
+- [iPhone 11 Pro Max](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [Xiaomi Redmi Note 8](product_name) bao nhiêu tiền
+- điện thoại [Nokia 2720 Flip 4G](product_name) có giá bao nhiêu
+- [ss fold](product_name) có giá bao nhiêu
+- điện thoại [ss z flip 5g](product_name) hiện nay có giá bao nhiêu
+- điện thoại [realme 5i](product_name) hiện nay có giá bao nhiêu
+- điện thoại [Huawei P30 Pro](product_name) có giá bao nhiêu
+- [Xiaomi Redmi Note 8 Pro](product_name) bao nhiêu tiền
+- [Vivo Y30](product_name) bao nhiêu tiền
+- điện thoại [Xiaomi Redmi 7](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [iPhone 11 Pro Max](product_name) hiện nay có giá bao nhiêu
+- điện thoại [Realme 6](product_name) bao nhiêu tiền
+- sản phẩm [Realme 5 Pro](product_name) có giá bao nhiêu
+- điện thoại [Xiaomi Mi 10 Pro](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [Realme C3](product_name) bao nhiêu tiền
+- điện thoại [Huawei nova 5z](product_name) bao nhiêu tiền
+- [Masstel Izi 112](product_name) bao nhiêu tiền
+- điện thoại [Nokia 5.3](product_name) có giá bao nhiêu
+- điện thoại [Xiaomi Mi 10 S](product_name) bao nhiêu tiền
+- sản phẩm [Samsung Galaxy J8+](product_name) bao nhiêu tiền
+- sản phẩm [OPPO Find X2](product_name) có giá bao nhiêu
+- sản phẩm [ss a51](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [ss m31](product_name) có giá bao nhiêu
+- sản phẩm [realme narzo 10](product_name) bao nhiêu tiền
+- [Huawei Nova 5](product_name) bao nhiêu tiền
+- điện thoại [Realme 5s](product_name) bao nhiêu tiền
+- sản phẩm [Nokia 105 DS](product_name) bao nhiêu tiền
+- điện thoại [Samsung Galaxy A41](product_name) hiện nay có giá bao nhiêu
+- sản phẩm [Samsung Galaxy S10](product_name) có giá bao nhiêu
+- điện thoại [OPPO A52](product_name) bao nhiêu tiền
+- [Huawei Y8p](product_name) bao nhiêu tiền
+- điện thoại [OPPO A11](product_name) có giá bao nhiêu
+- sản phẩm [Xiaomi Redmi K30 Pro Zoom Edition](product_name) có giá bao nhiêu
+- [Oppo Reno3 Pro](product_name) bao nhiêu tiền
+- điện thoại [Nokia 125](product_name) có giá bao nhiêu
+- điện thoại [Huawei Mate 30 5G](product_name) có giá bao nhiêu
+- [Itel It2163](product_name) có giá bao nhiêu
+- sản phẩm [realme xt](product_name) bao nhiêu tiền
+- điện thoại [ss s10](product_name) có giá bao nhiêu
+- sản phẩm [iPhone 11 Pro Max](product_name) bao nhiêu tiền
+- điện thoại [Huawei Enjoy 10 Plus](product_name) có giá bao nhiêu
+- điện thoại [realme x50 youth edition](product_name) bao nhiêu tiền
+- sản phẩm [Oppo Reno3 Pro](product_name) [256 GB](rom)hiện nay có giá bao nhiêu
+- sản phẩm [Nokia 9.2](product_name) [8gb](rom) [4 gb](ram) có giá bao nhiêu
+- điện thoại [Huawei Nova 7 Pro 5G](product_name) [3 gb](ram)hiện nay có giá bao nhiêu
+- điện thoại [Realme 6i](product_name) [8 GB](ram)bao nhiêu tiền
+- điện thoại [Samsung Galaxy A21s](product_name) [16gb](rom)hiện nay có giá bao nhiêu
+- điện thoại [Realme 6](product_name) [8gb](rom) [8 gb](ram) có giá bao nhiêu
+- sản phẩm [iPhone 11 Pro](product_name) [256GB](rom) [512 mb](ram) hiện nay có giá bao nhiêu
+- điện thoại [ss 10 lite](product_name) [256 gb](rom)có giá bao nhiêu
+- điện thoại [ss a50s](product_name) [512 gb](rom)bao nhiêu tiền
+- điện thoại [Huawei P Smart Pro 2019](product_name) [4mb](ram) [32 gb](rom) có giá bao nhiêu
+- điện thoại [Vsmart Joy 3](product_name) [1 GB](ram) [128GB](rom) có giá bao nhiêu
+- [Xiaomi Redmi K30i](product_name) [8 GB](ram) [128GB](rom) bao nhiêu tiền
+- sản phẩm [Huawei P30 Pro](product_name) [128 GB](rom) [2 GB](ram) hiện nay có giá bao nhiêu
+- sản phẩm [Vivo Y19](product_name) [8 MB](ram) [64 GB](rom) bao nhiêu tiền
+- sản phẩm [ss 10 lite](product_name) [8 GB](ram) [32 gb](rom) bao nhiêu tiền
+- sản phẩm [Realme 5](product_name) [512 mb](ram) [8gb](rom) bao nhiêu tiền
+- sản phẩm [Vivo X30 Pro](product_name) [3 gb](ram)có giá bao nhiêu
+- sản phẩm [Nokia N150](product_name) [1 GB](ram) [256GB](rom) có giá bao nhiêu
+- điện thoại [realme narzo 10a](product_name) [4 GB](ram) [256 GB](rom) bao nhiêu tiền
+- điện thoại [Huawei Nova 5 Pro](product_name) [16 gb](rom)hiện nay có giá bao nhiêu
+- điện thoại [Energizer E241s](product_name) [8gb](rom)bao nhiêu tiền
+- sản phẩm [Huawei Y7s](product_name) [8 mb](ram) [16GB](rom) bao nhiêu tiền
+- [ss 10](product_name) [12 gb](ram) [32gb](rom) hiện nay có giá bao nhiêu
+- sản phẩm [Vivo X50e 5G](product_name) [4 mb](ram)hiện nay có giá bao nhiêu
+- sản phẩm [Huawei Mate 30 RS Porsche Design](product_name) [8gb](rom) [512 mb](ram) có giá bao nhiêu
+- điện thoại [Huawei Y8s](product_name) [6 GB](ram) [512GB](rom) có giá bao nhiêu
+- [Nokia 800 Tough](product_name) [8GB](rom)có giá bao nhiêu
+- [Huawei Nova 7 5G](product_name) [512 MB](ram) [32GB](rom) có giá bao nhiêu
+- điện thoại [Samsung Galaxy Xcover Pro](product_name) [6 gb](ram) [512 gb](rom) có giá bao nhiêu
+- [Huawei Y9s](product_name) [256 GB](rom)hiện nay có giá bao nhiêu
+- điện thoại [ss a20](product_name) [32gb](rom)có giá bao nhiêu
+- điện thoại [Xiaomi Mi 10 Youth Edition](product_name) [256 gb](rom) [12 GB](ram) hiện nay có giá bao nhiêu
+- [OPPO A72](product_name) [64GB](rom) [8 MB](ram) hiện nay có giá bao nhiêu
+- [Xiaomi Mi 9 Pro 5G](product_name) [8 MB](ram)hiện nay có giá bao nhiêu
+- [realme 6](product_name) [16gb](rom)hiện nay có giá bao nhiêu
+- sản phẩm [Xiaomi Mi Note 10 Pro](product_name) [12 GB](ram)hiện nay có giá bao nhiêu
+- điện thoại [realme x50 youth edition](product_name) [8gb](rom)có giá bao nhiêu
+- [Vivo X50 Lite](product_name) [128 gb](rom) [3 GB](ram) hiện nay có giá bao nhiêu
+- điện thoại [Itel It5092](product_name) [32 mb](ram)hiện nay có giá bao nhiêu
+- sản phẩm [Realme X2 Pro](product_name) [512gb](rom) [32 MB](ram) hiện nay có giá bao nhiêu
+- sản phẩm [Samsung Galaxy Z Flip 5G](product_name) [256GB](rom)hiện nay có giá bao nhiêu
+- [Vivo X30 Pro](product_name) [8 GB](ram) [16GB](rom) bao nhiêu tiền
+- điện thoại [Samsung Galaxy A10](product_name) [8GB](rom) [8 MB](ram) hiện nay có giá bao nhiêu
+- [Huawei Enjoy 10s](product_name) [256 gb](rom)có giá bao nhiêu
+- điện thoại [Vivo X30](product_name) [256 gb](rom) [8 GB](ram) bao nhiêu tiền
+- [Nokia 2.2](product_name) [4MB](ram)hiện nay có giá bao nhiêu
+- [Realme X50 Youth Edition](product_name) [64 gb](rom)có giá bao nhiêu
+- sản phẩm [Huawei Y6s](product_name) [4 gb](ram) [256GB](rom) bao nhiêu tiền
+- [ss m21](product_name) [8 mb](ram) [128gb](rom) có giá bao nhiêu
+
+## intent: ask_price_online
+- sản phẩm [ss z flip 5g](product_name) [16gb](rom)có giá bao nhiêu khi mua online
+- điện thoại [Xiaomi Black Shark 3](product_name) [8 GB](ram) [256 GB](rom) mua online hiện nay có giá bao nhiêu
+- [realme 6](product_name) [1 GB](ram) [32 gb](rom) giá mua online là bao nhiêu
+- điện thoại [Samsung Galaxy A10s](product_name) [128 GB](rom) [8 GB](ram) giá khi mua online
+- [Samsung Galaxy S20 Ultra](product_name) [256 GB](rom) [8 mb](ram) mua online có giá bao nhiêu
+- điện thoại [ss 10 lite](product_name) [256GB](rom) [512 MB](ram) mua online có giá bao nhiêu
+- [Masstel izi 120](product_name) [4MB](ram) [32 gb](rom) giá mua online là bao nhiêu
+- sản phẩm [ss a01](product_name) [16 GB](rom)mua online bao nhiêu tiền
+- điện thoại [Samsung Galaxy Note 10 Lite](product_name) [16GB](rom) [4 gb](ram) giá mua online là bao nhiêu
+- điện thoại [Huawei Y7p](product_name) [1 GB](ram)có giá bao nhiêu khi mua online
+- điện thoại [Vivo Y50](product_name) [32 MB](ram) [8gb](rom) giá mua online là bao nhiêu
+- [Oppo Find X2 Pro](product_name) [8 gb](ram)mua online hiện nay có giá bao nhiêu
+- [ss a51 5g](product_name) [512gb](rom)có giá bao nhiêu khi mua online
+- điện thoại [Vsmart Star](product_name) [4 MB](ram) [256 GB](rom) giá khi mua online
+- [Vsmart Joy 3](product_name) [16gb](rom)có giá bao nhiêu khi mua online
+- sản phẩm [ss a71 5g](product_name) [512GB](rom)mua online hiện nay có giá bao nhiêu
+- sản phẩm [Xiaomi Mi 10 S](product_name) [512 mb](ram)mua online bao nhiêu tiền
+- sản phẩm [Huawei Mate 30 RS Porsche Design](product_name) [8 gb](ram) [128gb](rom) mua online có giá bao nhiêu
+- [ss a41](product_name) [1 gb](ram)mua online có giá bao nhiêu
+- sản phẩm [Oppo A12](product_name) [12 gb](ram) [8gb](rom) mua online hiện nay có giá bao nhiêu
+- điện thoại [Vivo X50 Lite](product_name) [32 mb](ram) [32GB](rom) giá mua online là bao nhiêu
+- điện thoại [Realme 5 Pro](product_name) [128 gb](rom)mua online hiện nay có giá bao nhiêu
+- điện thoại [Huawei Nova 7 5G](product_name) [64gb](rom) [8 mb](ram) mua online có giá bao nhiêu
+- [Nokia 150 DS](product_name) [16gb](rom) [32 mb](ram) mua online hiện nay có giá bao nhiêu
+- sản phẩm [Masstel Max R1](product_name) [3 gb](ram)mua online bao nhiêu tiền
+- điện thoại [OPPO K5](product_name) [8GB](rom) [6 gb](ram) mua online có giá bao nhiêu
+- [Samsung Galaxy Note 20+](product_name) [256gb](rom)mua online hiện nay có giá bao nhiêu
+- [Samsung Galaxy A21s](product_name) [16GB](rom)giá mua online là bao nhiêu
+- điện thoại [Samsung Galaxy M01](product_name) [4 MB](ram)giá khi mua online
+- [Huawei P40 Lite 5G](product_name) [128 gb](rom)có giá bao nhiêu khi mua online
+- [ss m40](product_name) [6 GB](ram)có giá bao nhiêu khi mua online
+- sản phẩm [realme c3](product_name) [64GB](rom)có giá bao nhiêu khi mua online
+- [Itel It2170](product_name) [32GB](rom)giá khi mua online
+- sản phẩm [Huawei P40](product_name) [128gb](rom) [8 mb](ram) mua online bao nhiêu tiền
+- sản phẩm [OPPO F15](product_name) [3 gb](ram) [128 GB](rom) mua online hiện nay có giá bao nhiêu
+- [Huawei Nova 5](product_name) [3 GB](ram)có giá bao nhiêu khi mua online
+- điện thoại [Oppo Reno](product_name) [32 GB](rom) [2 gb](ram) mua online bao nhiêu tiền
+- sản phẩm [Oppo A31](product_name) [1 GB](ram) [256gb](rom) mua online bao nhiêu tiền
+- điện thoại [Masstel Izi 250](product_name) [3 GB](ram)mua online có giá bao nhiêu
+- [Energizer E241s](product_name) [3 gb](ram)mua online hiện nay có giá bao nhiêu
+- điện thoại [ss m31](product_name) [8gb](rom)giá mua online là bao nhiêu
+- [Vsmart Star](product_name) [16 GB](rom) [3 GB](ram) giá khi mua online
+- điện thoại [OPPO A92s](product_name) [512gb](rom)giá khi mua online
+- sản phẩm [Samsung Galaxy M51](product_name) [64GB](rom) [12 gb](ram) giá mua online là bao nhiêu
+- điện thoại [Vivo V19 Pro](product_name) [64 gb](rom)mua online hiện nay có giá bao nhiêu
+- [Huawei Y6s](product_name) [256gb](rom) [6 GB](ram) mua online hiện nay có giá bao nhiêu
+- sản phẩm [ss s10e](product_name) [3 GB](ram) [16GB](rom) mua online bao nhiêu tiền
+- điện thoại [realme 5 pro](product_name) [4mb](ram) [16gb](rom) mua online bao nhiêu tiền
+- điện thoại [Samsung Galaxy A30s](product_name) [512 gb](rom) [4 GB](ram) giá khi mua online
+- [Huawei P40](product_name) giá mua online là bao nhiêu
+- điện thoại [Vivo Y91C](product_name) mua online có giá bao nhiêu
+- sản phẩm [Samsung Galaxy Z Flip](product_name) mua online có giá bao nhiêu
+- điện thoại [Masstel Izi 112](product_name) giá mua online là bao nhiêu
+- điện thoại [Xiaomi Redmi K30](product_name) có giá bao nhiêu khi mua online
+- [ss a21s](product_name) giá khi mua online
+- sản phẩm [ss a31](product_name) mua online có giá bao nhiêu
+- sản phẩm [Huawei Nova 7 SE 5G](product_name) mua online có giá bao nhiêu
+- [ss m21](product_name) mua online bao nhiêu tiền
+- điện thoại [OPPO Reno2 F](product_name) giá mua online là bao nhiêu
+- [ss a71](product_name) giá mua online là bao nhiêu
+- điện thoại [Nokia 150](product_name) giá mua online là bao nhiêu
+- [iPhone 8 Plus](product_name) giá khi mua online
+- sản phẩm [ss a20s](product_name) giá mua online là bao nhiêu
+- [Samsung Galaxy Xcover Pro](product_name) mua online có giá bao nhiêu
+- [ss a70](product_name) mua online hiện nay có giá bao nhiêu
+- sản phẩm [Xiaomi Redmi 9](product_name) mua online có giá bao nhiêu
+- [Nokia 105 Single Sim (2017)](product_name) giá mua online là bao nhiêu
+- [Nokia 1.3](product_name) mua online có giá bao nhiêu
+- điện thoại [Xiaomi Redmi Note 9 Pro](product_name) có giá bao nhiêu khi mua online
+- điện thoại [Realme X50 Pro Player Edition](product_name) giá khi mua online
+- điện thoại [Huawei Nova 6](product_name) giá khi mua online
+- [realme c3](product_name) có giá bao nhiêu khi mua online
+- sản phẩm [Realme 6i](product_name) có giá bao nhiêu khi mua online
+- điện thoại [ss a20s](product_name) mua online bao nhiêu tiền
+- sản phẩm [Vivo X30 Pro](product_name) mua online có giá bao nhiêu
+- sản phẩm [Samsung Galaxy Z Flip](product_name) mua online bao nhiêu tiền
+- [iPhone XR](product_name) mua online bao nhiêu tiền
+- [Vivo Y19](product_name) giá mua online là bao nhiêu
+- [realme narzo 10](product_name) giá khi mua online
+- sản phẩm [Huawei Nova 7 SE 5G](product_name) giá mua online là bao nhiêu
+- [ss m21](product_name) giá mua online là bao nhiêu
+- điện thoại [Samsung Galaxy S20 Ultra](product_name) giá mua online là bao nhiêu
+- điện thoại [Vivo Y50](product_name) giá khi mua online
+- [Vsmart Joy 3](product_name) giá khi mua online
+- điện thoại [realme u1](product_name) giá khi mua online
+- sản phẩm [Realme X2](product_name) có giá bao nhiêu khi mua online
+- điện thoại [Samsung Galaxy A11](product_name) mua online bao nhiêu tiền
+- [Huawei P30 Lite New Edition](product_name) có giá bao nhiêu khi mua online
+- sản phẩm [ss s20+](product_name) có giá bao nhiêu khi mua online
+- [Xiaomi Redmi Note 9 Pro Max](product_name) mua online bao nhiêu tiền
+- điện thoại [Vivo X30 Pro](product_name) mua online hiện nay có giá bao nhiêu
+- [Huawei Y7 Pro](product_name) giá khi mua online
+- [Realme 6](product_name) có giá bao nhiêu khi mua online
+- điện thoại [Xiaomi Black Shark 3](product_name) mua online có giá bao nhiêu
+- sản phẩm [Xiaomi Black Shark 2 Pro](product_name) giá mua online là bao nhiêu
+- [Xiaomi Redmi K30i](product_name) mua online có giá bao nhiêu
+- [Nokia 150 DS](product_name) giá khi mua online
+- điện thoại [ss z flip](product_name) giá khi mua online
+- sản phẩm [Xiaomi Redmi Note 7](product_name) giá online như thế nào
+- [Masstel Fami S2](product_name) giá online là bao nhiêu
+- [Samsung Galaxy A31](product_name) giá online như thế nào
+- sản phẩm [realme 6](product_name) giá online là bao nhiêu
+- [Huawei P40](product_name) giá online như thế nào
+- sản phẩm [Masstel Izi 250](product_name) giá online là bao nhiêu
+- điện thoại [ss a20e](product_name) giá online là bao nhiêu
+- sản phẩm [Nokia 150 DS](product_name) giá online như thế nào
+- sản phẩm [Samsung Galaxy S10 Lite](product_name) giá online như thế nào
+- sản phẩm [Huawei Y6s](product_name) giá online là bao nhiêu
+- [realme 6 pro](product_name) giá online như thế nào
+- sản phẩm [Xiaomi Mi Note 10 Pro](product_name) giá online là bao nhiêu
+- sản phẩm [Vivo Y50](product_name) giá online như thế nào
+- sản phẩm [Masstel iZi 206](product_name) giá online như thế nào
+- điện thoại [Realme X3 Super Zoom](product_name) giá online là bao nhiêu
+- điện thoại [Xiaomi Redmi Note 9 Pro Max](product_name) giá online như thế nào
+- [Vivo S1 Pro](product_name) giá online là bao nhiêu
+- điện thoại [Realme X2](product_name) giá online là bao nhiêu
+- [realme x50 pro 5g](product_name) giá online là bao nhiêu
+- điện thoại [Huawei Y6s](product_name) giá online như thế nào
+- sản phẩm [ss m11](product_name) giá online như thế nào
+- điện thoại [ss a30](product_name) giá online như thế nào
+- điện thoại [Nokia 105 DS](product_name) giá online như thế nào
+- điện thoại [OPPO Reno2 F](product_name) giá online như thế nào
+- sản phẩm [Realme X2](product_name) giá online là bao nhiêu
+- sản phẩm [Vivo X50e 5G](product_name) giá online như thế nào
+- điện thoại [Oppo A31](product_name) giá online như thế nào
+- điện thoại [Huawei P30 Lite New Edition](product_name) giá online là bao nhiêu
+- [Xiaomi Redmi 10X 4G](product_name) giá online như thế nào
+- điện thoại [Realme Narzo 10](product_name) giá online như thế nào
+- sản phẩm [Vivo X50e 5G](product_name) giá online như thế nào
+- sản phẩm [Masstel Fami 12](product_name) giá online là bao nhiêu
+- điện thoại [Xiaomi Mi 9 Pro](product_name) giá online là bao nhiêu
+- điện thoại [Samsung Galaxy Fold](product_name) giá online là bao nhiêu
+- [Oppo A12](product_name) giá online như thế nào
+- điện thoại [OPPO K5](product_name) giá online như thế nào
+- [Huawei Nova 7](product_name) giá online là bao nhiêu
+- [Xiaomi Redmi Note 9 Pro](product_name) giá online như thế nào
+- điện thoại [Realme 6](product_name) giá online là bao nhiêu
+- sản phẩm [Nokia 9.2](product_name) giá online là bao nhiêu
+- sản phẩm [Masstel Max R1](product_name) giá online là bao nhiêu
+- điện thoại [Xiaomi Redmi Note 9](product_name) giá online là bao nhiêu
+- sản phẩm [Vivo V15 Pro](product_name) giá online như thế nào
+- sản phẩm [Xiaomi Mi 10 Lite 5G](product_name) giá online như thế nào
+- điện thoại [Samsung Galaxy A70](product_name) giá online là bao nhiêu
+- [realme 5s](product_name) giá online là bao nhiêu
+- [realme x50 pro 5g](product_name) giá online như thế nào
+- sản phẩm [Vivo Y11](product_name) giá online là bao nhiêu
+- [Energizer P20](product_name) giá online như thế nào
+
+## intent: ask_price_old
+- [Huawei Y8p](product_name) giá cũ là bao nhiêu
+- [ss m01](product_name) giá cũ là bao nhiêu
+- điện thoại [Xiaomi Redmi K30i](product_name) giá cũ là bao nhiêu
+- điện thoại [ss a20s](product_name) giá cũ như thế nào
+- [Huawei Nova 5i Pro](product_name) giá cũ như thế nào
+- [Samsung Galaxy A50s](product_name) giá cũ là bao nhiêu
+- [realme x2 pro](product_name) giá cũ như thế nào
+- điện thoại [Oppo A5](product_name) giá cũ như thế nào
+- sản phẩm [realme x50 5g](product_name) giá cũ là bao nhiêu
+- [Samsung Galaxy A10s](product_name) giá cũ là bao nhiêu
+- điện thoại [Samsung Galaxy Z Flip](product_name) giá cũ như thế nào
+- điện thoại [Masstel Fami 9](product_name) giá cũ là bao nhiêu
+- điện thoại [realme xt](product_name) giá cũ là bao nhiêu
+- điện thoại [OPPO Reno Ace 2](product_name) giá cũ là bao nhiêu
+- sản phẩm [Vivo X50e 5G](product_name) giá cũ là bao nhiêu
+- [OPPO Reno 3A](product_name) giá cũ như thế nào
+- điện thoại [OPPO K5](product_name) giá cũ là bao nhiêu
+- [Huawei Nova 5 Pro](product_name) giá cũ là bao nhiêu
+- sản phẩm [Xiaomi Redmi Note 8T](product_name) giá cũ là bao nhiêu
+- điện thoại [Huawei P Smart S](product_name) giá cũ là bao nhiêu
+- sản phẩm [Samsung Galaxy M31s](product_name) giá cũ là bao nhiêu
+- điện thoại [Huawei Y6s](product_name) giá cũ như thế nào
+- sản phẩm [Huawei P Smart Pro 2019](product_name) giá cũ như thế nào
+- [Oppo A31](product_name) giá cũ là bao nhiêu
+- [Huawei P40 Lite](product_name) giá cũ là bao nhiêu
+- sản phẩm [OPPO Find X2](product_name) giá cũ như thế nào
+- sản phẩm [ss a01](product_name) giá cũ là bao nhiêu
+- điện thoại [realme 5 pro](product_name) giá cũ là bao nhiêu
+- điện thoại [Huawei Mate 30 Pro 5G](product_name) giá cũ là bao nhiêu
+- [Masstel Fami 12](product_name) giá cũ như thế nào
+- [Xiaomi Black Shark 2](product_name) giá cũ là bao nhiêu
+- sản phẩm [Realme C2](product_name) giá cũ là bao nhiêu
+- sản phẩm [realme 6](product_name) giá cũ như thế nào
+- sản phẩm [realme c2](product_name) giá cũ là bao nhiêu
+- sản phẩm [Samsung Galaxy Fold](product_name) giá cũ là bao nhiêu
+- điện thoại [Masstel Hapi 10 Fami](product_name) giá cũ như thế nào
+- điện thoại [Nokia 1.3](product_name) giá cũ là bao nhiêu
+- sản phẩm [ss a10s](product_name) giá cũ như thế nào
+- sản phẩm [Energizer P20](product_name) giá cũ là bao nhiêu
+- sản phẩm [ss 10](product_name) giá cũ như thế nào
+- điện thoại [ss a20e](product_name) giá cũ là bao nhiêu
+- sản phẩm [Masstel Izi 112](product_name) giá cũ là bao nhiêu
+- [Vivo Y19](product_name) giá cũ như thế nào
+- điện thoại [OPPO Reno 3A](product_name) giá cũ là bao nhiêu
+- sản phẩm [Itel It5025](product_name) giá cũ là bao nhiêu
+- [Vivo Y91C](product_name) giá cũ là bao nhiêu
+- [Xiaomi Redmi K30i](product_name) giá cũ là bao nhiêu
+- sản phẩm [Oppo A31](product_name) giá cũ như thế nào
+- điện thoại [Energizer E100](product_name) giá cũ như thế nào
+- sản phẩm [Samsung Galaxy A21s](product_name) [8 gb](ram)giá cũ như thế nào
+- sản phẩm [ss m51](product_name) [8 mb](ram)giá cũ như thế nào
+- điện thoại [Huawei P40 Lite E](product_name) [16 GB](rom) [512 mb](ram) giá cũ là bao nhiêu
+- sản phẩm [realme x3](product_name) [512GB](rom) [8 MB](ram) giá cũ như thế nào
+- điện thoại [ss a11](product_name) [256 GB](rom) [4 mb](ram) giá cũ là bao nhiêu
+- sản phẩm [Huawei Y8p](product_name) [64 gb](rom)giá cũ như thế nào
+- điện thoại [Samsung Galaxy M20](product_name) [128GB](rom) [8 gb](ram) giá cũ như thế nào
+- [Samsung Galaxy A71](product_name) [16 gb](rom) [8 mb](ram) giá cũ là bao nhiêu
+- sản phẩm [Masstel Max R1](product_name) [4mb](ram) [16gb](rom) giá cũ là bao nhiêu
+- điện thoại [realme 6 pro](product_name) [2 gb](ram) [128GB](rom) giá cũ là bao nhiêu
+- [ss s20](product_name) [256gb](rom)giá cũ là bao nhiêu
+- sản phẩm [OPPO Reno Ace](product_name) [512GB](rom)giá cũ là bao nhiêu
+- [Nokia 105 SS](product_name) [512gb](rom)giá cũ như thế nào
+- điện thoại [Masstel iZi 206](product_name) [8gb](rom)giá cũ là bao nhiêu
+- [Huawei Enjoy 10](product_name) [32 MB](ram)giá cũ là bao nhiêu
+- sản phẩm [realme x2 pro](product_name) [4 GB](ram)giá cũ như thế nào
+- [ss watch active](product_name) [16 GB](rom)giá cũ là bao nhiêu
+- điện thoại [Nokia 150 DS](product_name) [3 GB](ram)giá cũ như thế nào
+- [Realme C2](product_name) [64GB](rom) [1 GB](ram) giá cũ như thế nào
+- điện thoại [Huawei Y6p](product_name) [4MB](ram)giá cũ như thế nào
+- [Realme 6 Pro](product_name) [3 gb](ram)giá cũ như thế nào
+- sản phẩm [Samsung Galaxy A10](product_name) [6 gb](ram)giá cũ là bao nhiêu
+- [Samsung Galaxy A60](product_name) [2 GB](ram)giá cũ như thế nào
+- sản phẩm [Nokia 5.3](product_name) [64 GB](rom)giá cũ như thế nào
+- [Energizer E12](product_name) [1 GB](ram)giá cũ như thế nào
+- điện thoại [Samsung Galaxy A51 5G](product_name) [32gb](rom)giá cũ là bao nhiêu
+- điện thoại [Nokia 110 DS](product_name) [6 gb](ram)giá cũ là bao nhiêu
+- điện thoại [Samsung Galaxy A10e](product_name) [8 mb](ram) [256 gb](rom) giá cũ là bao nhiêu
+- [ss a01](product_name) [16gb](rom)giá cũ như thế nào
+- [Vsmart Star 3](product_name) [512gb](rom) [2 gb](ram) giá cũ như thế nào
+- [Xiaomi Redmi Note 8](product_name) [8 GB](ram) [256 GB](rom) giá cũ như thế nào
+- [Huawei Nova 7 5G](product_name) [32 MB](ram) [128GB](rom) giá cũ như thế nào
+- [OPPO Find X2 Lite](product_name) [1 GB](ram)giá cũ như thế nào
+- sản phẩm [Vivo Y91C](product_name) [12 gb](ram)giá cũ là bao nhiêu
+- sản phẩm [ss 10](product_name) [512gb](rom)giá cũ như thế nào
+- sản phẩm [ss z flip](product_name) [64 gb](rom) [8 gb](ram) giá cũ như thế nào
+- [Samsung Galaxy A51](product_name) [3 GB](ram)giá cũ là bao nhiêu
+- sản phẩm [ss a21s](product_name) [8GB](rom) [1 gb](ram) giá cũ như thế nào
+- sản phẩm [Masstel Lux Mini](product_name) [64GB](rom) [3 GB](ram) giá cũ là bao nhiêu
+- [OPPO A72](product_name) [4 MB](ram) [64GB](rom) giá cũ là bao nhiêu
+- sản phẩm [Realme X50 Pro 5G](product_name) [3 gb](ram) [8gb](rom) giá cũ như thế nào
+- điện thoại [Huawei nova 5z](product_name) [8 mb](ram) [512 GB](rom) giá cũ như thế nào
+- điện thoại [OPPO A11](product_name) [8 gb](ram)giá cũ là bao nhiêu
+- [Samsung Galaxy M51](product_name) [1 GB](ram)giá cũ như thế nào
+- điện thoại [Samsung Galaxy Note 10](product_name) [16GB](rom)giá cũ là bao nhiêu
+- điện thoại [Masstel Hapi 10 Fami](product_name) [4MB](ram) [256 GB](rom) giá cũ là bao nhiêu
+- [ss j8+](product_name) [128gb](rom) [8 GB](ram) giá cũ như thế nào
+- [Masstel Fami P25](product_name) [1 GB](ram) [32 gb](rom) giá cũ như thế nào
+- điện thoại [realme c2](product_name) [256gb](rom) [32 mb](ram) giá cũ là bao nhiêu
+- giá của sản phẩm [Vivo Y9s](product_name) cũ là bao nhiêu
+- giá của điện thoại [Realme 6](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Nokia 6.2](product_name) khi mua cũ như thế nào
+- giá điện thoại [Samsung Galaxy Fold](product_name) khi mua cũ như thế nào
+- giá của điện thoại [Realme X2](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Huawei Mate 30 Pro 5G](product_name) cũ là bao nhiêu
+- giá sản phẩm [OPPO A91](product_name) khi mua cũ như thế nào
+- giá của điện thoại [iPhone 7](product_name) cũ là bao nhiêu
+- giá của sản phẩm [realme 5i](product_name) cũ là bao nhiêu
+- giá của sản phẩm [realme 5 pro](product_name) cũ là bao nhiêu
+- giá sản phẩm [Samsung Galaxy A11](product_name) cũ là bao nhiêu
+- giá của sản phẩm [Realme 3](product_name) cũ là bao nhiêu
+- giá của điện thoại [Samsung Galaxy S20](product_name) cũ là bao nhiêu
+- giá của điện thoại [Samsung Galaxy A90 5G](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [ss a01](product_name) cũ là bao nhiêu
+- giá sản phẩm [ss z flip 5g](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Samsung Galaxy A60](product_name) cũ là bao nhiêu
+- giá của điện thoại [Vivo Y70s 5G](product_name) cũ là bao nhiêu
+- giá của điện thoại [Nokia 105 Single Sim (2017)](product_name) cũ là bao nhiêu
+- giá của điện thoại [Realme 6](product_name) khi mua cũ như thế nào
+- giá của điện thoại [Huawei Mate 30](product_name) khi mua cũ như thế nào
+- giá sản phẩm [Xiaomi Redmi 8](product_name) cũ là bao nhiêu
+- giá sản phẩm [Samsung Galaxy Note 20+](product_name) cũ là bao nhiêu
+- giá của điện thoại [Nokia 3310](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Xiaomi Redmi Note 7](product_name) khi mua cũ như thế nào
+- giá sản phẩm [ss 10 lite](product_name) cũ là bao nhiêu
+- giá điện thoại [Itel It5092](product_name) khi mua cũ như thế nào
+- giá sản phẩm [Huawei nova 5z](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Huawei Nova 7 5G](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [realme x2](product_name) cũ là bao nhiêu
+- giá của điện thoại [Realme 5s](product_name) cũ là bao nhiêu
+- giá của sản phẩm [ss a90 5g](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Xiaomi Mi CC9 Pro](product_name) khi mua cũ như thế nào
+- giá sản phẩm [ss m11](product_name) cũ là bao nhiêu
+- giá điện thoại [Huawei P Smart S](product_name) cũ là bao nhiêu
+- giá sản phẩm [Xiaomi Mi 10 Pro](product_name) khi mua cũ như thế nào
+- giá điện thoại [Xiaomi Redmi K30 Pro Zoom Edition](product_name) khi mua cũ như thế nào
+- giá của điện thoại [Xiaomi Redmi 8](product_name) cũ là bao nhiêu
+- giá của điện thoại [Samsung Galaxy A30](product_name) cũ là bao nhiêu
+- giá điện thoại [Huawei Mate 30 RS Porsche Design](product_name) khi mua cũ như thế nào
+- giá của điện thoại [ss a51](product_name) cũ là bao nhiêu
+- giá của điện thoại [Masstel Fami 9](product_name) cũ là bao nhiêu
+- giá điện thoại [ss a60](product_name) cũ là bao nhiêu
+- giá của sản phẩm [Samsung Galaxy A10e](product_name) khi mua cũ như thế nào
+- giá điện thoại [ss a70](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Masstel Izi 280](product_name) khi mua cũ như thế nào
+- giá của sản phẩm [Vivo X50 Pro](product_name) cũ là bao nhiêu
+- giá của sản phẩm [ss m21](product_name) cũ là bao nhiêu
+- giá điện thoại [Samsung Galaxy A10e](product_name) khi mua cũ như thế nào
+- [Xiaomi Redmi 7](product_name) giá mua cũ là bao nhiêu
+- [Masstel Fami 9](product_name) có giá bao nhiêu khi mua cũ
+- điện thoại [Energizer E100](product_name) mua cũ có giá bao nhiêu
+- [ss a11](product_name) mua cũ bao nhiêu tiền
+- sản phẩm [realme 6](product_name) giá khi mua cũ
+- điện thoại [Vivo Y91C](product_name) mua cũ bao nhiêu tiền
+- điện thoại [Vivo V19](product_name) mua cũ có giá bao nhiêu
+- [Realme X50 Pro Player Edition](product_name) mua cũ hiện nay có giá bao nhiêu
+- [Energizer E241s](product_name) có giá bao nhiêu khi mua cũ
+- sản phẩm [Samsung Galaxy M21](product_name) giá khi mua cũ
+- [Vsmart Star 3](product_name) giá khi mua cũ
+- [Nokia 3.2](product_name) mua cũ có giá bao nhiêu
+- [Samsung Galaxy Note 10 Lite](product_name) giá khi mua cũ
+- [Realme 5 Pro](product_name) mua cũ hiện nay có giá bao nhiêu
+- điện thoại [Xiaomi Mi 9 Pro](product_name) giá khi mua cũ
+- điện thoại [Masstel Fami 12](product_name) mua cũ có giá bao nhiêu
+- sản phẩm [Nokia N150](product_name) mua cũ bao nhiêu tiền
+- [Samsung Galaxy A20e](product_name) mua cũ hiện nay có giá bao nhiêu
+- sản phẩm [ss a20e](product_name) có giá bao nhiêu khi mua cũ
+- điện thoại [Masstel Izi 250](product_name) mua cũ bao nhiêu tiền
+- [realme narzo 10](product_name) có giá bao nhiêu khi mua cũ
+- sản phẩm [ss s20+](product_name) giá khi mua cũ
+- [Masstel F50](product_name) mua cũ bao nhiêu tiền
+- điện thoại [Masstel Fami 9](product_name) giá mua cũ là bao nhiêu
+- sản phẩm [Masstel Play Max](product_name) mua cũ hiện nay có giá bao nhiêu
+- điện thoại [Xiaomi Mi Note 10 Lite](product_name) có giá bao nhiêu khi mua cũ
+- sản phẩm [Huawei Y8p](product_name) mua cũ bao nhiêu tiền
+- sản phẩm [iPhone 6s Plus](product_name) mua cũ hiện nay có giá bao nhiêu
+- điện thoại [realme narzo 10](product_name) mua cũ hiện nay có giá bao nhiêu
+- điện thoại [Huawei Nova 5T](product_name) giá mua cũ là bao nhiêu
+- sản phẩm [realme x2](product_name) giá mua cũ là bao nhiêu
+- sản phẩm [iPhone 6s Plus](product_name) giá mua cũ là bao nhiêu
+- sản phẩm [Nokia N150](product_name) có giá bao nhiêu khi mua cũ
+- điện thoại [realme 5](product_name) mua cũ có giá bao nhiêu
+- sản phẩm [Vivo X50e 5G](product_name) có giá bao nhiêu khi mua cũ
+- điện thoại [ss m40](product_name) mua cũ hiện nay có giá bao nhiêu
+- [Masstel Lux Mini](product_name) mua cũ bao nhiêu tiền
+- [Huawei Y8s](product_name) giá mua cũ là bao nhiêu
+- sản phẩm [ss 10+](product_name) giá mua cũ là bao nhiêu
+- điện thoại [Xiaomi Redmi K30i](product_name) mua cũ có giá bao nhiêu
+- sản phẩm [Realme X50 Pro Player Edition](product_name) có giá bao nhiêu khi mua cũ
+- điện thoại [Nokia 800 Tough](product_name) giá khi mua cũ
+- [Vivo Apex](product_name) giá khi mua cũ
+- điện thoại [OPPO A91](product_name) giá khi mua cũ
+- sản phẩm [Itel It5092](product_name) mua cũ hiện nay có giá bao nhiêu
+- [ss a10e](product_name) giá khi mua cũ
+- điện thoại [Itel It5092](product_name) giá mua cũ là bao nhiêu
+- điện thoại [Vivo iQOO Neo 3](product_name) giá mua cũ là bao nhiêu
+- sản phẩm [ss m51](product_name) mua cũ hiện nay có giá bao nhiêu
 
 ## intent: ask_info
 - cấu hình [Realme X50 5G](product_name) như thế nào
@@ -84,13 +706,11 @@
 
 ## intent: ask_list_product
 - Danh sách sản phẩm của [Iphone](product_company)
-- Danh sách sản phẩm của [Realmi](product_company)
+- Danh sách sản phẩm của [Realme](product_company)
 - Danh sách sản phẩm của [Huawei](product_company)
 - Danh sách sản phẩm của [Realmi](product_company)
 - Danh sách sản phẩm của [Oppo](product_company)
 - Danh sách sản phẩm của [Huawei](product_company)
-
-
 
 ## intent: buy
 - Đặt mua [Huawei P30 Lite New Edition](product_name)
@@ -113,3 +733,204 @@
 - Đặt mua [Realme 6 4GB-128GB](product_name)
 - Đặt mua [OPPO A92](product_name)
 
+<<<<<<< HEAD
+=======
+## intent:ask_with_price
+- giá của [ss m01](product_name) [4,2 triệu](price) phải không ạ
+- gia điện thoại [Huawei Nova 7 5G](product_name) là [1,4 triệu](price) đúng không
+- gia điện thoại [Masstel Fami P25](product_name) [hâm chín triệu](price) đúng không
+- giá sản phẩm [OPPO Find X2 Neo](product_name) là [7,3 triệu](price) phải không ạ
+- gia điện thoại [iPhone XR](product_name) [7 triệu 7](price) phải không ạ
+- gia điện thoại [Samsung Galaxy M01](product_name) [ba triệu bảy](price) phải không
+- giá sản phẩm [realme 5s](product_name) [mười ba triệu](price) phải không ạ
+- giá sản phẩm [Huawei P40](product_name) là [mười sáu triệu](price) phải không
+- giá của [Energizer P20](product_name) [chín triệu](price) phải không ạ
+- giá của [Samsung Galaxy J8+](product_name) là [ba triệu mốt](price) phải không
+- gia điện thoại [Itel It6120](product_name) là [6,3 triệu](price) phải không ạ
+- giá của [Vivo X30](product_name) là [9,6 triệu](price) phải không
+- giá sản phẩm [ss m40](product_name) là [sáu triệu mốt](price) phải không ạ
+- giá của [Vsmart Active 3](product_name) [hai triệu hai](price) phải không ạ
+- giá của [iPhone 11 Pro](product_name) [8 triệu 8](price) phải không ạ
+- giá của [Samsung Galaxy M31](product_name) [hai triệu năm](price) đúng không
+- giá sản phẩm [Samsung Galaxy A30s](product_name) là [bốn triệu mốt](price) phải không
+- gia điện thoại [ss m11](product_name) là [5 triệu](price) đúng không
+- giá của [Masstel Play 30](product_name) [6,1 triệu](price) phải không ạ
+- gia điện thoại [ss 10](product_name) là [6,3 triệu](price) phải không
+- giá của [Masstel Max R1](product_name) là [7 triệu 7](price) phải không ạ
+- giá của [Samsung Galaxy Note 10+](product_name) là [chín triệu rưởi](price) đúng không
+- giá sản phẩm [ss a01](product_name) [chín triệu năm](price) đúng không
+- giá sản phẩm [Xiaomi Redmi K30 5G](product_name) [năm triệu chín](price) đúng không
+- gia điện thoại [Samsung Galaxy J8+](product_name) [3,4 triệu](price) phải không
+- giá của [Oppo A5](product_name) [3,1 triệu](price) phải không
+- gia điện thoại [Oppo A31](product_name) là [năm triệu chín](price) đúng không
+- gia điện thoại [iPhone 11 Pro Max](product_name) là [năm triệu bảy](price) đúng không
+- giá sản phẩm [ss j8+](product_name) [ba triệu ba](price) phải không
+- gia điện thoại [Huawei Y6p](product_name) là [3,4 triệu](price) phải không
+- giá sản phẩm [Vivo S1 Pro](product_name) là [9 triệu](price) phải không
+- giá của [realme 6i](product_name) là [1 triệu rưởi](price) phải không ạ
+- giá sản phẩm [Huawei Y9s](product_name) là [7,5 triệu](price) phải không
+- giá sản phẩm [Xiaomi Mi Note 10 Lite](product_name) là [4,4 triệu](price) phải không
+- giá của [Huawei Nova 5T](product_name) là [5,5 triệu](price) phải không ạ
+- gia điện thoại [Huawei Enjoy 10e](product_name) [6 triệu](price) phải không
+- giá sản phẩm [Oppo Reno3 Pro](product_name) là [năm triệu bốn](price) đúng không
+- giá của [Nokia N150](product_name) là [mười bảy triệu](price) phải không
+- giá sản phẩm [Huawei Y7p](product_name) [bảy triệu năm](price) phải không
+- gia điện thoại [Huawei Mate Xs](product_name) [hai mươi ba triệu](price) phải không
+- giá của [Vivo iQOO Neo 3](product_name) là [bảy triệu tám](price) phải không
+- giá sản phẩm [Xiaomi Redmi Note 7](product_name) là [9,6 triệu](price) đúng không
+- giá sản phẩm [OPPO Find X2 Neo](product_name) [hai mươi bảy triệu](price) đúng không
+- giá sản phẩm [ss a71 5g](product_name) [7,4 triệu](price) đúng không
+- gia điện thoại [realme x50 pro player edition](product_name) là [hai mươi một triệu](price) phải không
+- giá của [ss s10 lite](product_name) [4,1 triệu](price) đúng không
+- giá của [Samsung Galaxy A10e](product_name) [sáu triệu năm](price) phải không ạ
+- gia điện thoại [Vivo Y91C ](product_name) là [sáu triệu ba](price) phải không ạ
+- giá sản phẩm [Nokia 150 ](product_name) là [8,1 triệu](price) phải không
+- điện thoại [iPhone 11](product_name) giá là [sáu triệu sáu](price) đúng không
+- điện thoại [Samsung Galaxy A50s](product_name) có giá [7 triệu rưởi](price) phải không
+- điện thoại [Nokia 9.2](product_name) có giá [ba triệu sáu](price) phải không ạ
+- [Huawei Enjoy 10 Plus](product_name) giá [3,2 triệu](price) đúng không
+- sản phẩm [OPPO Reno Ace](product_name) giá [tám triệu bốn](price) phải không
+- [Samsung Galaxy M31](product_name) giá là [chín triệu ba](price) phải không
+- điện thoại [Masstel Fami S2](product_name) giá là [tám triệu tám](price) đúng không
+- [ss a51 5g](product_name) giá [9,6 triệu](price) đúng không
+- sản phẩm [Xiaomi Redmi Note 8](product_name) giá [9,2 triệu](price) phải không ạ
+- điện thoại [Xiaomi Redmi K30 5G](product_name) giá là [6,5 triệu](price) đúng không
+- [realme x2](product_name) có giá [hai mươi lăm triệu](price) phải không ạ
+- [Samsung Galaxy J8+](product_name) giá là [sáu triệu tám](price) phải không ạ
+- [OPPO Reno A](product_name) giá [4 triệu 4](price) phải không
+- [realme 3](product_name) có giá [7,3 triệu](price) đúng không
+- điện thoại [OPPO Find X2](product_name) giá [sáu triệu bảy](price) đúng không
+- [ss fold](product_name) giá [ba triệu bảy](price) đúng không
+- [Xiaomi Redmi Note 8 Pro](product_name) có giá [3,8 triệu](price) phải không
+- [Nokia 2.3](product_name) giá là [bảy triệu ba](price) phải không ạ
+- điện thoại [Masstel Fami 9](product_name) giá là [ba triệu bốn](price) phải không ạ
+- [ss a10](product_name) giá là [bốn triệu mốt](price) phải không ạ
+- sản phẩm [realme u1](product_name) giá là [6,7 triệu](price) phải không ạ
+- điện thoại [Huawei Nova 5](product_name) giá là [mười chín triệu](price) phải không ạ
+- [Masstel Play 30](product_name) có giá [4,7 triệu](price) đúng không
+- [Xiaomi Mi Note 10 Pro](product_name) giá là [7 triệu 7](price) phải không
+- sản phẩm [Huawei Enjoy 10 Plus](product_name) giá là [ba triệu](price) phải không
+- điện thoại [Huawei Nova 5T](product_name) giá là [một triệu năm](price) phải không ạ
+- sản phẩm [realme 6 pro](product_name) giá là [chín triệu sáu](price) phải không
+- [ss m11](product_name) có giá [bốn triệu hai](price) phải không
+- điện thoại [Itel It6120](product_name) giá [9,1 triệu](price) phải không ạ
+- sản phẩm [realme narzo 10a](product_name) giá [bảy triệu hai](price) đúng không
+- sản phẩm [Samsung Galaxy S20 Ultra](product_name) giá [hai mươi hai triệu](price) đúng không
+- điện thoại [Vivo Z5i](product_name) có giá [7,1 triệu](price) phải không ạ
+- sản phẩm [Vsmart Active 3](product_name) giá [4,8 triệu](price) đúng không
+- [Energizer E241s](product_name) giá là [hai mươi chín triệu](price) phải không
+- [ss a60](product_name) giá [hai mươi chín triệu](price) phải không ạ
+- sản phẩm [Nokia N150](product_name) giá [5,1 triệu](price) phải không ạ
+- điện thoại [Xiaomi Redmi Note 8](product_name) có giá [bốn triệu tám](price) đúng không
+- sản phẩm [Nokia 8.3 5G](product_name) có giá [chín triệu bảy](price) phải không ạ
+- [Huawei Nova 7 Pro 5G](product_name) có giá [2 triệu 2](price) đúng không
+- sản phẩm [ss watch active](product_name) giá [hâm sáu triệu](price) phải không
+- điện thoại [Samsung Galaxy Fold](product_name) giá là [bốn triệu bốn](price) phải không ạ
+- sản phẩm [Samsung Galaxy A31](product_name) giá [hai triệu mốt](price) đúng không
+- [Samsung Galaxy A10s](product_name) giá là [6 triệu rưởi](price) phải không ạ
+- [Vivo Y5s](product_name) giá là [một triệu hai](price) đúng không
+- sản phẩm [Huawei Nova 6](product_name) có giá [bảy triệu rưởi](price) phải không
+- điện thoại [realme 3](product_name) có giá [7,9 triệu](price) phải không
+- [Masstel iZi 206](product_name) có giá [sáu triệu](price) phải không
+- sản phẩm [OPPO A1k](product_name) có giá [4,6 triệu](price) đúng không
+- sản phẩm [realme 6](product_name) có giá [3,7 triệu](price) phải không
+- [Samsung Galaxy J8+](product_name) giá [2 m 7](price) phải không
+- sản phẩm [Nokia 2720 Flip 4G](product_name) giá là [hai triệu rưởi](price) phải không
+- sản phẩm [Huawei P40 Pro](product_name) có giá [8,4 triệu](price) đúng không
+- sản phẩm [Samsung Galaxy M10s](product_name) có giá [4 m 2](price) phải không ạ
+- sản phẩm [Nokia 2.3](product_name) giá là [9,1 triệu](price) đúng không
+- điện thoại [Vivo V17](product_name) giá là [4 m 6](price) đúng không
+- [Huawei Nova 7 5G](product_name) giá là [6 triệu rưởi](price) phải không
+- sản phẩm [Samsung Galaxy A70s](product_name) giá [một triệu rưởi](price) phải không
+- sản phẩm [Samsung Galaxy S10 Lite](product_name) có giá [5 triệu rưởi](price) phải không ạ
+- [realme 5i](product_name) có giá [2 m 2](price) đúng không
+- [Realme U1](product_name) giá là [6 m 8](price) phải không ạ
+- [Huawei Nova 7 Pro 5G](product_name) giá là [9,7 triệu](price) phải không
+- [Samsung Galaxy Z Flip 5G](product_name) giá [9 m 4](price) phải không
+- điện thoại [ss s10 lite](product_name) giá là [3 m 4](price) đúng không
+- điện thoại [Vivo X30](product_name) giá là [1 m 1](price) đúng không
+- sản phẩm [realme 3](product_name) giá [hai triệu rưởi](price) đúng không
+- sản phẩm [Samsung Galaxy A71](product_name) giá là [2 triệu rưởi](price) đúng không
+- điện thoại [Huawei Nova 7](product_name) giá [3 m 5](price) đúng không
+- [OPPO A12e](product_name) giá [7 m 7](price) phải không
+- sản phẩm [Xiaomi Redmi K20 Pro Premium](product_name) giá là [9 m 7](price) phải không
+- [Realme 5s](product_name) có giá [một triệu rưởi](price) phải không ạ
+- sản phẩm [Vivo Y50](product_name) giá [4 m 5](price) đúng không
+- sản phẩm [Samsung Galaxy A51 5G](product_name) có giá [2 m 1](price) đúng không
+- [Vivo Y91C ](product_name) có giá [5 m 7](price) phải không
+- sản phẩm [Huawei Enjoy 10](product_name) giá [3 m 4](price) phải không ạ
+- [Xiaomi Mi 9 Pro](product_name) giá là [9 m 3](price) đúng không
+- điện thoại [Masstel Fami S2](product_name) giá [5 m 7](price) đúng không
+- điện thoại [ss z flip](product_name) giá [6 m 4](price) phải không
+- điện thoại [Xiaomi Mi 10 Pro](product_name) có giá [1 m 1](price) đúng không
+- điện thoại [ss m01](product_name) có giá [9,1 triệu](price) phải không ạ
+- sản phẩm [OPPO Reno A](product_name) có giá [8,3 triệu](price) đúng không
+- điện thoại [ss 10+](product_name) giá [4 m 3](price) đúng không
+- [Samsung Galaxy Note 20+](product_name) có giá [3 m 2](price) phải không
+- [Samsung Galaxy M21](product_name) giá là [9 m 4](price) đúng không
+- [Nokia 5310 ](product_name) giá là [3 m 4](price) phải không ạ
+- sản phẩm [realme 5](product_name) giá là [7 m 1](price) phải không
+- điện thoại [ss a30](product_name) giá [8,4 triệu](price) đúng không
+- sản phẩm [Vivo Y70s 5G](product_name) giá [1 m 9](price) phải không
+- điện thoại [Xiaomi Redmi 10X 4G](product_name) giá [hai triệu rưởi](price) phải không
+- sản phẩm [Vivo Y50](product_name) giá [6 m 1](price) đúng không
+- sản phẩm [Vsmart Joy 3](product_name) có giá [1 m 9](price) phải không ạ
+- sản phẩm [Samsung Galaxy A10e](product_name) giá là [9,3 triệu](price) đúng không
+- [Samsung Galaxy Z Flip 5G](product_name) giá [1 m 2](price) đúng không
+- điện thoại [Oppo Find X2 Pro](product_name) giá [chín triệu rưởi](price) đúng không
+- sản phẩm [Vivo iQOO Z1](product_name) giá là [1 m 4](price) phải không
+- [Vsmart Joy 3](product_name) có giá [2 m 7](price) đúng không
+- [Samsung Galaxy M51](product_name) giá là [9 m 4](price) phải không ạ
+- [Xiaomi Redmi 7](product_name) giá [9 m 8](price) phải không ạ
+
+## intent:ask_price_in_range
+- có điện thoại nào trong khoảng [5 m 9]{"entity":"price","role":"from_price"} đến [2,3 triệu]{"entity":"price","role":"to_price"} 
+- có điện thoại nào trong khoảng [3 m 1]{"entity":"price","role":"from_price"} đến [5,4 triệu]{"entity":"price","role":"to_price"} tư vấn giúp em
+- tôi muốn một chiếc điện thoại trong khoảng [1 m 8]{"entity":"price","role":"from_price"} đến [mười tám triệu]{"entity":"price","role":"to_price"} tư vấn giúp em
+- tôi muốn một chiếc điện thoại trong khoảng [hai triệu tám]{"entity":"price","role":"from_price"} đến [6 m 1]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- tôi muốn một chiếc điện thoại trong khoảng [sáu triệu rưởi]{"entity":"price","role":"from_price"} đến [sáu triệu hai]{"entity":"price","role":"to_price"} không ạ
+- tôi muốn một chiếc điện thoại trong khoảng [tám triệu]{"entity":"price","role":"from_price"} đến [7 m 9]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong khoảng [ba triệu rưởi]{"entity":"price","role":"from_price"} đến [4 m 3]{"entity":"price","role":"to_price"} 
+- tôi muốn một chiếc điện thoại trong khoảng [1 m 4]{"entity":"price","role":"from_price"} đến [6 m 2]{"entity":"price","role":"to_price"} không ạ
+- có điện thoại nào trong khoảng [năm triệu ba]{"entity":"price","role":"from_price"} đến [bảy triệu bảy]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong khoảng [8 m 9]{"entity":"price","role":"from_price"} đến [hai triệu tám]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong khoảng [6 m 9]{"entity":"price","role":"from_price"} đến [8 m 9]{"entity":"price","role":"to_price"} 
+- có điện thoại nào trong khoảng [4 triệu]{"entity":"price","role":"from_price"} đến [sáu triệu rưởi]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong khoảng [chín triệu ba]{"entity":"price","role":"from_price"} đến [6 m 5]{"entity":"price","role":"to_price"} 
+- tôi muốn một chiếc điện thoại trong khoảng [4 m 5]{"entity":"price","role":"from_price"} đến [4,6 triệu]{"entity":"price","role":"to_price"} không ạ
+- có điện thoại nào trong khoảng [9 m 5]{"entity":"price","role":"from_price"} đến [5 m 1]{"entity":"price","role":"to_price"} tư vấn giúp em
+- có điện thoại nào trong khoảng [7 m 9]{"entity":"price","role":"from_price"} đến [8 triệu 8]{"entity":"price","role":"to_price"} không ạ
+- có điện thoại nào trong khoảng [2,2 triệu]{"entity":"price","role":"from_price"} đến [3 m 5]{"entity":"price","role":"to_price"} tư vấn giúp em
+- có điện thoại nào trong tầm giá từ [1 m 8]{"entity":"price","role":"from_price"} đến [chín triệu năm]{"entity":"price","role":"to_price"} không ạ
+- có điện thoại nào trong tầm giá từ [2,1 triệu]{"entity":"price","role":"from_price"} đến [9,4 triệu]{"entity":"price","role":"to_price"} 
+- tôi muốn một chiếc điện thoại trong khoảng [7 m 9]{"entity":"price","role":"from_price"} đến [1,4 triệu]{"entity":"price","role":"to_price"} không ạ
+- tôi muốn một chiếc điện thoại trong khoảng [5 m 6]{"entity":"price","role":"from_price"} đến [năm triệu mốt]{"entity":"price","role":"to_price"} 
+- có sản phẩm nào trong khoảng [năm triệu hai]{"entity":"price","role":"from_price"} đến [tám triệu rưởi]{"entity":"price","role":"to_price"} 
+- có điện thoại nào trong khoảng [bốn triệu tám]{"entity":"price","role":"from_price"} đến [tám triệu mốt]{"entity":"price","role":"to_price"} tư vấn giúp em
+- có sản phẩm nào trong khoảng [mười sáu triệu]{"entity":"price","role":"from_price"} đến [1 m 8]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có sản phẩm nào trong khoảng [3 triệu rưởi]{"entity":"price","role":"from_price"} đến [9 m 6]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong khoảng [5 m 2]{"entity":"price","role":"from_price"} đến [2,2 triệu]{"entity":"price","role":"to_price"} không ạ
+- có điện thoại nào trong khoảng [tám triệu]{"entity":"price","role":"from_price"} đến [6,4 triệu]{"entity":"price","role":"to_price"} tư vấn giúp em
+- có sản phẩm nào trong khoảng [6,2 triệu]{"entity":"price","role":"from_price"} đến [hai mươi hai triệu]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong tầm giá từ [2,8 triệu]{"entity":"price","role":"from_price"} đến [năm triệu chín]{"entity":"price","role":"to_price"} tư vấn giúp em
+- có điện thoại nào trong khoảng [hai triệu chín]{"entity":"price","role":"from_price"} đến [2 m 1]{"entity":"price","role":"to_price"} tư vấn giúp em
+- tôi muốn một chiếc điện thoại trong khoảng [4,3 triệu]{"entity":"price","role":"from_price"} đến [1 triệu]{"entity":"price","role":"to_price"} tư vấn giúp em
+- tôi muốn một chiếc điện thoại trong khoảng [6,2 triệu]{"entity":"price","role":"from_price"} đến [9,7 triệu]{"entity":"price","role":"to_price"} 
+- có điện thoại nào trong tầm giá từ [3,8 triệu]{"entity":"price","role":"from_price"} đến [sáu triệu hai]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong khoảng [2 m 8]{"entity":"price","role":"from_price"} đến [2,9 triệu]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong tầm giá từ [ba triệu bảy]{"entity":"price","role":"from_price"} đến [hai mươi tám triệu]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- tôi muốn một chiếc điện thoại trong khoảng [2 triệu]{"entity":"price","role":"from_price"} đến [hai triệu tám]{"entity":"price","role":"to_price"} không ạ
+- tôi muốn một chiếc điện thoại trong khoảng [sáu triệu rưởi]{"entity":"price","role":"from_price"} đến [ba triệu]{"entity":"price","role":"to_price"} 
+- có điện thoại nào trong khoảng [bốn triệu sáu]{"entity":"price","role":"from_price"} đến [1,2 triệu]{"entity":"price","role":"to_price"} không ạ
+- có sản phẩm nào trong khoảng [3 m 8]{"entity":"price","role":"from_price"} đến [7,4 triệu]{"entity":"price","role":"to_price"} 
+- có điện thoại nào trong khoảng [5 m 9]{"entity":"price","role":"from_price"} đến [1,9 triệu]{"entity":"price","role":"to_price"} 
+- tôi muốn một chiếc điện thoại trong khoảng [8,5 triệu]{"entity":"price","role":"from_price"} đến [8 triệu rưởi]{"entity":"price","role":"to_price"} tư vấn giúp em
+- có điện thoại nào trong khoảng [9 m 5]{"entity":"price","role":"from_price"} đến [4,4 triệu]{"entity":"price","role":"to_price"} tư vấn giúp em
+- có sản phẩm nào trong khoảng [7 m 8]{"entity":"price","role":"from_price"} đến [sáu triệu năm]{"entity":"price","role":"to_price"} 
+- tôi muốn một chiếc điện thoại trong khoảng [5,3 triệu]{"entity":"price","role":"from_price"} đến [một triệu mốt]{"entity":"price","role":"to_price"} 
+- tôi muốn một chiếc điện thoại trong khoảng [5 triệu rưởi]{"entity":"price","role":"from_price"} đến [3,3 triệu]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có điện thoại nào trong khoảng [sáu triệu]{"entity":"price","role":"from_price"} đến [3 m 8]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có sản phẩm nào trong khoảng [7 m 5]{"entity":"price","role":"from_price"} đến [9 m 4]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
+- có sản phẩm nào trong khoảng [5,7 triệu]{"entity":"price","role":"from_price"} đến [6 m 5]{"entity":"price","role":"to_price"} tư vấn giúp em
+- tôi muốn một chiếc điện thoại trong khoảng [bảy triệu tám]{"entity":"price","role":"from_price"} đến [hâm lăm triệu]{"entity":"price","role":"to_price"}
+>>>>>>> 7fe250d9a71f622adbf67dda9c1fbb2b0adc0f8d

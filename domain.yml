@@ -28,8 +28,12 @@ intents:
   - ask_info
   - need_help
   - ask_price
+  - ask_price_online
+  - ask_price_old
+  - ask_with_price
   - ask_type_product
   - ask_list_product
+  - ask_price_in_range
 
 responses:
   utter_default:
@@ -60,6 +64,7 @@ actions:
   - action_list_product
   - action_product_infor
   - action_show_list_product
+  - action_answer_product
 
 session_config:
   session_expiration_time: 60
