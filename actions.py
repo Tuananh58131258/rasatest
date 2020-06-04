@@ -74,7 +74,6 @@ class ActionAnswerPrice(Action):
         print("chạy action_answer_price")
         return
 
-
 class ActionListProduct(Action):
     def name(self) -> Text:
         return "action_list_product"
@@ -120,7 +119,6 @@ class ActionListProduct(Action):
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_list_product")
         return
-
 
 class ActionProductInfor(Action):
     def name(self) -> Text:
@@ -240,3 +238,4 @@ class ActionShowListProduct(Action):
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_show_list_product")
         return
+
