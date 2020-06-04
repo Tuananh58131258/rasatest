@@ -274,8 +274,6 @@ class ActionShowListProduct(Action):
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_show_list_product")
         return
-<<<<<<< HEAD
-=======
 
 class ActionAnswerProduct(Action):
     def name(self) -> Text:
@@ -295,4 +293,3 @@ class ActionAnswerProduct(Action):
         
 
         return 
->>>>>>> 7fe250d9a71f622adbf67dda9c1fbb2b0adc0f8d

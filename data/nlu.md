@@ -733,8 +733,6 @@ data/price.txt
 - Đặt mua [Realme 6 4GB-128GB](product_name)
 - Đặt mua [OPPO A92](product_name)
 
-<<<<<<< HEAD
-=======
 ## intent:ask_with_price
 - giá của [ss m01](product_name) [4,2 triệu](price) phải không ạ
 - gia điện thoại [Huawei Nova 7 5G](product_name) là [1,4 triệu](price) đúng không
@@ -933,4 +931,3 @@ data/price.txt
 - có sản phẩm nào trong khoảng [7 m 5]{"entity":"price","role":"from_price"} đến [9 m 4]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
 - có sản phẩm nào trong khoảng [5,7 triệu]{"entity":"price","role":"from_price"} đến [6 m 5]{"entity":"price","role":"to_price"} tư vấn giúp em
 - tôi muốn một chiếc điện thoại trong khoảng [bảy triệu tám]{"entity":"price","role":"from_price"} đến [hâm lăm triệu]{"entity":"price","role":"to_price"}
->>>>>>> 7fe250d9a71f622adbf67dda9c1fbb2b0adc0f8d
