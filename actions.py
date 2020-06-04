@@ -110,7 +110,6 @@ class ActionAnswerPrice(Action):
         print("chạy action_answer_price " + productName + " " + product_name_input)
         return
 
-
 class ActionListProduct(Action):
     def name(self) -> Text:
         return "action_list_product"
@@ -156,7 +155,6 @@ class ActionListProduct(Action):
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_list_product")
         return
-
 
 class ActionProductInfor(Action):
     def name(self) -> Text:
