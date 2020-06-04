@@ -238,4 +238,3 @@ class ActionShowListProduct(Action):
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_show_list_product")
         return
-
