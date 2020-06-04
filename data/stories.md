@@ -116,3 +116,24 @@
 ## ask price old
 * ask_price_old{"product_name":"Iphone 9","rom":"128GB"}
  - action_answer_price
+
+## ask_price_in_range
+
+* ask_price_in_range
+ - action_answer_product
+## ask_price_in_range
+
+* ask_price_in_range
+ - action_answer_product
+## ask_price_in_range
+
+* ask_price_in_range
+ - action_answer_product
+## ask_price_in_range
+
+* ask_price_in_range
+ - action_answer_product
+## ask_price_in_range
+
+* ask_price_in_range
+ - action_answer_product

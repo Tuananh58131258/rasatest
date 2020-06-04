@@ -276,3 +276,22 @@ class ActionShowListProduct(Action):
         dispatcher.utter_message(text=ret_text, json_message=message_str)
         print("chạy action_show_list_product")
         return
+
+class ActionAnswerProduct(Action):
+    def name(self) -> Text:
+        return "action_answer_product"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        data1 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="from_price"))
+        data2 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="to_price"))
+        print("---------------------")
+        print('action answer product\n')
+        print(tracker.latest_message.get('text') + '\n')
+        print(str(data1)+str(data2)+'\n')
+        print("---------------------")
+        
+
+        return 

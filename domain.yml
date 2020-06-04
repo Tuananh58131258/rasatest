@@ -64,6 +64,7 @@ actions:
   - action_list_product
   - action_product_infor
   - action_show_list_product
+  - action_answer_product
 
 session_config:
   session_expiration_time: 60
