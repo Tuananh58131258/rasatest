@@ -17,14 +17,20 @@ def getData(query:str):
 
             # Setup the connection.
             # Pass your database details here
+            # mydb = mysql.connector.connect(
+            #     host="localhost",
+            #     user="root",
+            #     passwd="1649",
+            #     database="FPTShop",
+            #     auth_plugin='caching_sha2_password'
+            #     )
             mydb = mysql.connector.connect(
                 host="localhost",
                 user="root",
-                passwd="1649",
-                database="FPTShop",
+                passwd="",
+                database="fptshop",
                 auth_plugin='caching_sha2_password'
                 )
-
             # set up the cursor to execute the query
             cursor = mydb.cursor()
             cursor.execute(query)
@@ -40,18 +46,19 @@ def getData(query:str):
             return []
 
 # test the file before integrating with the bot by uncommenting the below line.
-obj = getData("SELECT DISTINCT rom FROM FPTShop.DienThoai;")
-fobj = open('rom.txt', 'w')
+obj = getData("SELECT DISTINCT rom FROM fptshop.dienthoai;")
+# fobj = open('rom.txt', 'w')
 for item in obj:
+    print(item)
 #     if item['ten'].find('Gear') ==-1 and item['ten'].find('watch') ==-1:
 #         temp = item['ten'].replace("Samsung","ss").replace("Galaxy","" ).replace("Note","").replace("  "," ")
         # print(item['ten'].lower())
-    if str(item['rom']).find("Không") ==-1 and str(item['rom']).find("None")==-1:
+    # if str(item['rom']).find("Không") ==-1 and str(item['rom']).find("None")==-1:
     # print("co")
 # print(obj[0])
-        fobj.write(str(item['rom']).strip('\t') + '\n')
-        fobj.write(str(item['rom']).lower().strip('\t') + '\n')
-fobj.close()
+        # fobj.write(str(item['rom']).strip('\t') + '\n')
+        # fobj.write(str(item['rom']).lower().strip('\t') + '\n')
+# fobj.close()
 # import random
 
 # n = len(obj)

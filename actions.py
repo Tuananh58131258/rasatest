@@ -45,8 +45,8 @@ class ActionAnswerPrice(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         product_name_input = tracker.get_slot('product_name')
         # price_input = tracker.get_slot('price')
-        ram_input = tracker.get_slot('ram')
-        rom_input = tracker.get_slot('rom')
+        # ram_input = tracker.get_slot('ram')
+        # rom_input = tracker.get_slot('rom')
         if product_name_input:
             productName = productNameAnalysis(product_name_input)
             query = "select * from FPTShop.DienThoai where ten like '%"+productName+"%'"
