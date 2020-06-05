@@ -1282,3 +1282,45 @@ data/price.txt
 - có sản phẩm nào khoảng [7,8 triệu](price) gì đó tư vấn giúp em
 - có cái nào khoảng [bảy triệu ba](price) không giới thiệu cho em với
 - có điện thoại nào trên dưới [mười ba triệu](price) không giới thiệu cho em với
+
+## intent: hoi_thong_tin_man_hinh
+- màn hình của [Masstel Play 30](product_name) là màn hình gì?
+- màn hình của [Nokia 105 Single Sim (2017)](product_name) là màn hình gì?
+- [Masstel Fami P25](product_name) sử dụng màn hình gì?
+- [Samsung Galaxy A80](product_name) sử dụng màn hình gì?
+- Màn hình của [ss  10](product_name) là màn hình loại nào
+- [ss a10s](product_name) sử dụng công nghệ màn hình gì?
+- [ss a20s](product_name) sử dụng màn hình gì?
+- Màn hình của [Itel It2580](product_name) là màn hình loại nào
+- Màn hình của [Nokia 105 Single Sim (2017)](product_name) là màn hình loại nào
+- Màn hình của [Itel It2123V](product_name) là màn hình loại nào
+- Màn hình của [Samsung Galaxy A60](product_name) là màn hình loại nào
+- [OPPO A72](product_name) sử dụng màn hình loại gì?
+- màn hình của [ss s20+](product_name) là màn hình gì?
+- [Realme 5i](product_name) sử dụng màn hình loại gì?
+- [Nokia 2.2](product_name) sử dụng màn hình loại gì?
+- [realme x2 pro](product_name) sử dụng màn hình loại gì?
+- màn hình của [realme 5i](product_name) là màn hình gì?
+- [iPhone XR](product_name) sử dụng màn hình loại gì?
+- [Xiaomi Mi 9T](product_name) sử dụng màn hình gì?
+
+## intent:hoi_thong_tin_pin
+- pin của [Huawei Enjoy 10e](product_name) có dung lượng bao nhiêu?
+- [Vivo Y30](product_name) sử dụng loại pin nào?
+- thời gian sử dụng pin của [realme c3](product_name) là bao lâu?
+- pin của [Oppo Find X2 Pro](product_name) có dung lượng bao nhiêu?
+- [Nokia 110 DS](product_name) sử dụng pin gì?
+- pin của [realme 5s](product_name) có dung lượng bao nhiêu?
+- pin của [ss s20](product_name) có dung lượng bao nhiêu?
+- pin của [Realme X3 Super Zoom](product_name) dùng được lâu không?
+- [ss a51 5g](product_name) sử dụng pin gì?
+- pin của [Samsung Galaxy A11](product_name) dùng được bao lâu
+- thời gian sử dụng pin của [Samsung Galaxy A21](product_name) là bao lâu?
+- [iPhone 8 Plus](product_name) sử dụng pin được lâu không?
+- [iPhone 8 Plus](product_name) sử dụng pin gì?
+- pin của [Nokia 5.3](product_name) dùng được lâu không?
+- pin của [realme x3](product_name) dùng được lâu không?
+- thời gian sử dụng pin của [iPhone 11 Pro](product_name) là bao lâu?
+- [Realme C3i ](product_name) sử dụng pin gì?
+- pin của [ss m40](product_name) dùng được lâu không?
+- pin của [Realme X3](product_name) có dung lượng bao nhiêu?
