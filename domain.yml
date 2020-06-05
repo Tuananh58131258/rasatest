@@ -21,50 +21,77 @@ entities:
   - product_company
 
 intents:
-  - greet
-  - goodbye
-  - buy
-  - thanks
-  - ask_info
-  - need_help
-  - ask_price
-  - ask_price_online
-  - ask_price_old
-  - ask_with_price
-  - ask_type_product
-  - ask_list_product
-  - ask_price_in_range
+  - chao
+  - tam_biet
+  - cam_on
+  - hoi_gia_san_pham
+  - hoi_gia_online
+  - hoi_gia_san_pham_cu
+  - hoi_cau_hinh_san_pham
+  - hoi_cac_loai_san_pham
+  - can_tu_van
+  - hoi_danh_sach_san_pham
+  - dat_mua
+  - kiem_tra_gia_san_pham
+  - tim_san_pham_duoi_mot_muc_gia
+  - tim_san_pham_tren_mot_muc_gia
+  - hoi_co_ny_chua
+  - solo_yasuo
+  - hoi_chuc_nang_cua_bot
+  - hoi_bot_la_gi
+  - hoi_sp_quanh_mot_muc_gia
 
 responses:
   utter_default:
-    - text: "Xin lỗi! Mình chưa hiểu ý bạn. Bạn vui lòng thử lại."
+    - text: "Xin lỗi! Mình chưa hiểu ý bạn. Vui lòng thử lại."
 
-  utter_greet:
+  utter_chao:
     - text: "Xin chào, bạn khỏe chứ!"
     - text: "Chào mừng bạn!"
-    - text: "Cảm ơn bạn đã ghé thăm"
+    - text: "Cảm ơn bạn đã ghé thăm."
 
-  utter_goodbye:
+  utter_tam_biet:
     - text: "Chào tạm biệt!"
-    - text: "Rất mong được gặp lại bạn"
+    - text: "Rất mong được gặp lại bạn."
 
-  utter_thanks:
+  utter_cam_on:
     - text: "Không có gì!"
-    - text: "Mình rất vui vì có thể giúp bạn"
+    - text: "Mình rất vui vì có thể giúp bạn."
 
-  utter_buy:
-    - text: "cảm ơn bạn đã ủng hộ cửa hàng"
+  utter_dat_mua:
+    - text: "cảm ơn bạn đã ủng hộ cửa hàng."
+
+  utter_solo_yasuo:
+    - text: "Dạo này bận quá nên không đánh được. Để mình kêu bạn mình đánh nhé."
+  
+  utter_co_ny_chua:
+    - text: "Bận làm bận ăn, yêu đương cái gì!"
+
+  utter_chuc_nang_cua_bot:
+    - text: "Mình có thể hát, múa, làm thơ. Nhưng nay chỉ tư vấn điện thoại thôi."
+
+  utter_bot_la_gi:
+    - text: "Mình sản phẩm đồ án tốt nghiệp của Nguyễn Tuấn Anh"
 
 actions:
   - utter_default
-  - utter_goodbye
-  - utter_greet
-  - utter_thanks
-  - action_answer_price
-  - action_list_product
-  - action_product_infor
-  - action_show_list_product
-  - action_answer_product
+  - utter_chao
+  - utter_tam_biet
+  - utter_cam_on
+  - utter_dat_mua
+  - utter_solo_yasuo
+  - utter_co_ny_chua
+  - utter_chuc_nang_cua_bot
+  - utter_bot_la_gi
+  - action_gia_san_pham
+  - action_ds_hang_dien_thoai
+  - action_cau_hinh_dien_thoai
+  - action_ds_dien_thoai_cua_hang
+  - action_dien_thoai_trong_khoang_gia
+  - action_kiem_tra_gia_dien_thoai
+  - action_dien_thoai_dien_thoai_tren_muc_gia
+  - action_dien_thoai_dien_thoai_duoi_muc_gia
+  - action_dien_thoai_dien_thoai_quanh_muc_gia
 
 session_config:
   session_expiration_time: 60

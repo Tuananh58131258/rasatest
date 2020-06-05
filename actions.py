@@ -36,13 +36,11 @@ from inputAnalysis import romramAnalysis
 from inputAnalysis import priceAnalysis
 
 
-class ActionAnswerPrice(Action):
+class ActionGiaSanPham(Action):
     def name(self) -> Text:
-        return "action_answer_price"
+        return "action_gia_san_pham"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def run(self, dispatcher: CollectingDispatcher,tracker: Tracker,domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         product_name_input = tracker.get_slot('product_name')
         # price_input = tracker.get_slot('price')
         # ram_input = tracker.get_slot('ram')
@@ -110,9 +108,9 @@ class ActionAnswerPrice(Action):
         print("chạy action_answer_price " + productName + " " + product_name_input)
         return
 
-class ActionListProduct(Action):
+class ActionDanhSachHangDienThoai(Action):
     def name(self) -> Text:
-        return "action_list_product"
+        return "action_ds_hang_dien_thoai"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -156,9 +154,9 @@ class ActionListProduct(Action):
         print("chạy action_list_product")
         return
 
-class ActionProductInfor(Action):
+class ActionCauHinhDienThoai(Action):
     def name(self) -> Text:
-        return "action_product_infor"
+        return "action_cau_hinh_dien_thoai"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -217,9 +215,9 @@ class ActionProductInfor(Action):
 
         return
 
-class ActionShowListProduct(Action):
+class ActionDanhSachDienThoaiCuaHang(Action):
     def name(self) -> Text:
-        return "action_show_list_product"
+        return "action_ds_dien_thoai_cua_hang"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
@@ -275,9 +273,85 @@ class ActionShowListProduct(Action):
         print("chạy action_show_list_product")
         return
 
-class ActionAnswerProduct(Action):
+class ActionDienThoaiTrongKhoangGia(Action):
     def name(self) -> Text:
-        return "action_answer_product"
+        return "action_dien_thoai_trong_khoang_gia"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        data1 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="from_price"))
+        data2 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="to_price"))
+        print("---------------------")
+        print('action answer product\n')
+        print(tracker.latest_message.get('text') + '\n')
+        print(str(data1)+str(data2)+'\n')
+        print("---------------------")
+        
+
+        return 
+
+class ActionKiemTraGiaDienThoai(Action):
+    def name(self) -> Text:
+        return "action_kiem_tra_gia_dien_thoai"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        data1 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="from_price"))
+        data2 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="to_price"))
+        print("---------------------")
+        print('action answer product\n')
+        print(tracker.latest_message.get('text') + '\n')
+        print(str(data1)+str(data2)+'\n')
+        print("---------------------")
+        
+
+        return 
+
+class ActionDienThoaiTrenMucGia(Action):
+    def name(self) -> Text:
+        return "action_dien_thoai_dien_thoai_tren_muc_gia"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        data1 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="from_price"))
+        data2 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="to_price"))
+        print("---------------------")
+        print('action answer product\n')
+        print(tracker.latest_message.get('text') + '\n')
+        print(str(data1)+str(data2)+'\n')
+        print("---------------------")
+        
+
+        return 
+
+class ActionDienThoaiDuoiMucGia(Action):
+    def name(self) -> Text:
+        return "action_dien_thoai_dien_thoai_duoi_muc_gia"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        data1 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="from_price"))
+        data2 = next(tracker.get_latest_entity_values(entity_type="price",  entity_role="to_price"))
+        print("---------------------")
+        print('action answer product\n')
+        print(tracker.latest_message.get('text') + '\n')
+        print(str(data1)+str(data2)+'\n')
+        print("---------------------")
+        
+
+        return 
+
+class ActionDienThoaiQuanhMucGia(Action):
+    def name(self) -> Text:
+        return "action_dien_thoai_dien_thoai_quanh_muc_gia"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,

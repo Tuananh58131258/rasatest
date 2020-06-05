@@ -46,10 +46,10 @@ def getData(query:str):
             return []
 
 # test the file before integrating with the bot by uncommenting the below line.
-obj = getData("SELECT DISTINCT rom FROM fptshop.dienthoai;")
+# obj = getData("SELECT DISTINCT rom FROM fptshop.dienthoai;")
 # fobj = open('rom.txt', 'w')
-for item in obj:
-    print(item)
+# for item in obj:
+    # print(item)
 #     if item['ten'].find('Gear') ==-1 and item['ten'].find('watch') ==-1:
 #         temp = item['ten'].replace("Samsung","ss").replace("Galaxy","" ).replace("Note","").replace("  "," ")
         # print(item['ten'].lower())

@@ -1,4 +1,4 @@
-## intent:greet
+## intent:chao
 <!-- chào hỏi -->
 - chào ad ạ
 - chào ad
@@ -24,7 +24,7 @@
 - hú
 - merci
 
-## intent:goodbye
+## intent:tam_biet
 <!-- Tạm biệt -->
 - bye ad
 - tạm biệt
@@ -42,7 +42,7 @@
 - gặp sau
 - đi đây
 
-## intent:thanks
+## intent:cam_on
 <!-- cảm ơn -->
 - cảm ơn ad
 - thank you
@@ -69,7 +69,7 @@ data/ram.txt
 data/rom.txt
 ## lookup:price
 data/price.txt
-## intent: ask_price
+## intent: hoi_gia_san_pham
 - sản phẩm [Realme 5 Pro](product_name) mua mới bao nhiêu tiền
 - điện thoại [Nokia 150 DS](product_name) giá mua mới là bao nhiêu
 - [realme x50 5g](product_name) giá khi mua mới
@@ -365,7 +365,7 @@ data/price.txt
 - sản phẩm [Huawei Y6s](product_name) [4 gb](ram) [256GB](rom) bao nhiêu tiền
 - [ss m21](product_name) [8 mb](ram) [128gb](rom) có giá bao nhiêu
 
-## intent: ask_price_online
+## intent: hoi_gia_online
 - sản phẩm [ss z flip 5g](product_name) [16gb](rom)có giá bao nhiêu khi mua online
 - điện thoại [Xiaomi Black Shark 3](product_name) [8 GB](ram) [256 GB](rom) mua online hiện nay có giá bao nhiêu
 - [realme 6](product_name) [1 GB](ram) [32 gb](rom) giá mua online là bao nhiêu
@@ -514,7 +514,7 @@ data/price.txt
 - sản phẩm [Vivo Y11](product_name) giá online là bao nhiêu
 - [Energizer P20](product_name) giá online như thế nào
 
-## intent: ask_price_old
+## intent: hoi_gia_san_pham_cu
 - [Huawei Y8p](product_name) giá cũ là bao nhiêu
 - [ss m01](product_name) giá cũ là bao nhiêu
 - điện thoại [Xiaomi Redmi K30i](product_name) giá cũ là bao nhiêu
@@ -712,7 +712,7 @@ data/price.txt
 - điện thoại [Vivo iQOO Neo 3](product_name) giá mua cũ là bao nhiêu
 - sản phẩm [ss m51](product_name) mua cũ hiện nay có giá bao nhiêu
 
-## intent: ask_info
+## intent: hoi_cau_hinh_san_pham
 - cấu hình [Realme X50 5G](product_name) như thế nào
 - [Realme C3i 2GB-32GB](product_name) có mạnh không
 - thông tin của [OPPO F15](product_name) có mạnh không
@@ -733,18 +733,18 @@ data/price.txt
 - cho hỏi cấu hình của [OPPO A91](product_name) có ổn không
 - cấu hình của [Realme 6 4GB-128GB](product_name) có ổn không
 
-## intent: ask_type_product
+## intent: hoi_cac_loai_san_pham
 - shop có những sản phẩm nào
 - có bao nhiêu loại sản phẩm
 - shop có điện thoại của những hãng nào
 - có bao nhiêu hãng điện thoại
 
-## intent: need_help
+## intent: can_tu_van
 - tôi muốn mua điện thoại
 - có thể tư vấn cho tôi được không
 - tôi cần một chiếc điện thoại
 
-## intent: ask_list_product
+## intent: hoi_danh_sach_san_pham
 - Danh sách sản phẩm của [Iphone](product_company)
 - Danh sách sản phẩm của [Realme](product_company)
 - Danh sách sản phẩm của [Huawei](product_company)
@@ -752,7 +752,7 @@ data/price.txt
 - Danh sách sản phẩm của [Oppo](product_company)
 - Danh sách sản phẩm của [Huawei](product_company)
 
-## intent: buy
+## intent: dat_mua
 - Đặt mua [Huawei P30 Lite New Edition](product_name)
 - Đặt mua [OPPO F15](product_name)
 - Đặt mua [iPhone 11 Pro 512GB](product_name)
@@ -773,7 +773,7 @@ data/price.txt
 - Đặt mua [Realme 6 4GB-128GB](product_name)
 - Đặt mua [OPPO A92](product_name)
 
-## intent:ask_with_price
+## intent:kiem_tra_gia_san_pham
 - giá của [ss m01](product_name) [4,2 triệu](price) phải không ạ
 - gia điện thoại [Huawei Nova 7 5G](product_name) là [1,4 triệu](price) đúng không
 - gia điện thoại [Masstel Fami P25](product_name) [hâm chín triệu](price) đúng không
@@ -921,7 +921,7 @@ data/price.txt
 - [Samsung Galaxy M51](product_name) giá là [9 m 4](price) phải không ạ
 - [Xiaomi Redmi 7](product_name) giá [9 m 8](price) phải không ạ
 
-## intent:ask_price_in_range
+## intent:tim_san_pham_trong_khoang_gia
 - có điện thoại nào trong khoảng [5 m 9]{"entity":"price","role":"from_price"} đến [2,3 triệu]{"entity":"price","role":"to_price"} 
 - có điện thoại nào trong khoảng [3 m 1]{"entity":"price","role":"from_price"} đến [5,4 triệu]{"entity":"price","role":"to_price"} tư vấn giúp em
 - tôi muốn một chiếc điện thoại trong khoảng [1 m 8]{"entity":"price","role":"from_price"} đến [mười tám triệu]{"entity":"price","role":"to_price"} tư vấn giúp em
@@ -972,7 +972,7 @@ data/price.txt
 - có sản phẩm nào trong khoảng [5,7 triệu]{"entity":"price","role":"from_price"} đến [6 m 5]{"entity":"price","role":"to_price"} tư vấn giúp em
 - tôi muốn một chiếc điện thoại trong khoảng [bảy triệu tám]{"entity":"price","role":"from_price"} đến [hâm lăm triệu]{"entity":"price","role":"to_price"}
 
-## intent: hoi_sp_duoi_gia
+## intent: tim_san_pham_duoi_mot_muc_gia
 - có sản phẩm nào dưới [9,1 triệu](price) không
 - có điện thoại nào giá dưới [6.5 triệu](price) không
 - có sản phẩm nào dưới [8 m 7](price) không
@@ -1072,7 +1072,7 @@ data/price.txt
 - có sản phẩm nào có giá từ [3.3 triệu](price) quay đầu không
 - có điện thoại nào có giá khoảng [7,2 triệu](price) quay đầu không
 
-## intent: hoi_gia_tren
+## intent: tim_san_pham_tren_mot_muc_gia
 - có điện thoại nào có giá khoảng [6 triệu](price) trở lên không
 - có điện thoại nào có giá khoảng [bốn triệu mốt](price) trở lên không
 - có điện thoại nào có giá khoảng [5,4 triệu](price) trở lên không
@@ -1172,7 +1172,7 @@ data/price.txt
 - có cái nào trên [mười lăm triệu](price) không
 - có cái nào trên [7 m 1](price) không
 
-## intent:Hoi_co_ny_chua
+## intent:hoi_co_ny_chua
 - có ny chưa
 - có người yêu chưa
 - có ai yêu chưa
@@ -1180,7 +1180,7 @@ data/price.txt
 - ad có người yêu chưa
 - bạn có người yêu chưa
 
-## intent:Solo_yasuo
+## intent:solo_yasuo
 - solo yasuo không
 - làm kèo yauso không
 - solo đấng không
@@ -1211,7 +1211,8 @@ data/price.txt
 - bạn là ai
 - cậu là ai
 
-## intent: hoi_sp_quanh_1_muc_gia
+## intent: hoi_sp_quanh_mot_muc_gia
+<!-- chênh lệch trên dưới 1 triệu đồng -->
 - có điện thoại nào tầm [7,7 triệu](price) không
 - có điện thoại nào trên dưới [8,9 triệu](price) không ạ
 - có điện thoại nào khoảng [3,1 triệu](price) không giới thiệu cho em với
