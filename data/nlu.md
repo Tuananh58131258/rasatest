@@ -7,12 +7,40 @@
 - chào shop
 - shop ơi cho mình hỏi
 - hello ad
+- chào em
+- hello em
+- hi em
+- em ơi, cho anh hỏi
+- bot ơi
+- cho mình hỏi chút
+- chào bạn nha
+- chào bot
+- hello
+- xin chào 
+- hôm nay bạn thế nào 
+- hey
+- chào bạn
+- alo alo
+- hú
+- merci
 
 ## intent:goodbye
 <!-- Tạm biệt -->
 - bye ad
 - tạm biệt
 - bai ad
+- good bye
+- bye bye
+- tạm biệt em
+- tạm biệt bot nhá
+- tạm biệt bạn nha
+- bye
+- gặp sau nha
+- hẹn lần khác
+- lúc khác nói tiếp sau
+- thôi nha
+- gặp sau
+- đi đây
 
 ## intent:thanks
 <!-- cảm ơn -->
@@ -21,6 +49,18 @@
 - tks
 - cảm ơn nhiều
 - oke ad
+- cảm ơn em nhá
+- thanks em nha
+- cảm ơn nha
+- good job
+- cảm ơn bạn nha
+- cảm ơn nhiều
+- thank you
+- cảm ơn bot nha
+- thanks bot
+- cảm ơn
+- thank you so much
+- great! Thanks
 ## lookup:product_name
 data/product_name.txt
 ## lookup:ram
@@ -931,3 +971,313 @@ data/price.txt
 - có sản phẩm nào trong khoảng [7 m 5]{"entity":"price","role":"from_price"} đến [9 m 4]{"entity":"price","role":"to_price"} không giờ thiệu cho em với
 - có sản phẩm nào trong khoảng [5,7 triệu]{"entity":"price","role":"from_price"} đến [6 m 5]{"entity":"price","role":"to_price"} tư vấn giúp em
 - tôi muốn một chiếc điện thoại trong khoảng [bảy triệu tám]{"entity":"price","role":"from_price"} đến [hâm lăm triệu]{"entity":"price","role":"to_price"}
+
+## intent: hoi_sp_duoi_gia
+- có sản phẩm nào dưới [9,1 triệu](price) không
+- có điện thoại nào giá dưới [6.5 triệu](price) không
+- có sản phẩm nào dưới [8 m 7](price) không
+- có điện thoại nào giá dưới [bảy triệu tám](price) không
+- có điện thoại nào giá dưới [7,2 triệu](price) không
+- có cái nào dưới [3.7 triệu](price) không
+- có sản phẩm nào dưới [7.2 triệu](price) không
+- có cái nào dưới [hai triệu tám](price) không
+- có cái nào dưới [3.6 triệu](price) không
+- có cái nào dưới [ba triệu sáu](price) không
+- có sản phẩm nào dưới [6 m 1](price) không
+- có sản phẩm nào dưới [1.8 triệu](price) không
+- có sản phẩm nào dưới [5,5 triệu](price) không
+- có cái nào dưới [5 m 6](price) không
+- có điện thoại nào giá dưới [2 m 5](price) không
+- có điện thoại nào giá dưới [1,1 triệu](price) không
+- có cái nào dưới [6 m 9](price) không
+- có điện thoại nào giá dưới [một triệu rưởi](price) không
+- có sản phẩm nào dưới [tám triệu sáu](price) không
+- có điện thoại nào giá dưới [2.4 triệu](price) không
+- có điện thoại nào giá dưới [4.3 triệu](price) không
+- có điện thoại nào giá dưới [3,1 triệu](price) không
+- có sản phẩm nào dưới [4.8 triệu](price) không
+- có cái nào dưới [4 m 5](price) không
+- có điện thoại nào giá dưới [bốn triệu ba](price) không
+- có điện thoại nào giá dưới [chín triệu sáu](price) không
+- có sản phẩm nào dưới [3 m 6](price) không
+- có cái nào dưới [3,8 triệu](price) không
+- có điện thoại nào giá dưới [hai mươi hai triệu](price) không
+- có sản phẩm nào dưới [6,4 triệu](price) không
+- có cái nào dưới [5 m 6](price) không
+- có sản phẩm nào dưới [bốn triệu mốt](price) không
+- có điện thoại nào giá dưới [hai triệu](price) không
+- có cái nào dưới [3,8 triệu](price) không
+- có cái nào dưới [2,7 triệu](price) không
+- có sản phẩm nào dưới [một triệu rưởi](price) không
+- có sản phẩm nào dưới [hâm lăm triệu](price) không
+- có sản phẩm nào dưới [bảy triệu bảy](price) không
+- có sản phẩm nào dưới [bốn triệu tám](price) không
+- có cái nào dưới [bảy triệu ba](price) không
+- có cái nào dưới [bảy triệu rưởi](price) không
+- có sản phẩm nào dưới [một triệu ba](price) không
+- có cái nào dưới [một triệu tư](price) không
+- có sản phẩm nào dưới [5 m 4](price) không
+- có sản phẩm nào dưới [bốn triệu bảy](price) không
+- có sản phẩm nào dưới [9,8 triệu](price) không
+- có điện thoại nào giá dưới [8 triệu](price) không
+- có sản phẩm nào dưới [sáu triệu tám](price) không
+- có điện thoại nào giá dưới [năm triệu bốn](price) không
+- có cái nào khoảng [6,2 triệu](price) quay đầu không
+- có cái nào khoảng [bảy triệu ba](price) trở lại không
+- có cái nào khoảng [5,4 triệu](price) quay đầu không
+- có điện thoại nào có giá khoảng [9 m 3](price) trở lại không
+- có sản phẩm nào có giá từ [5 m 3](price) trở lại không
+- có điện thoại nào có giá khoảng [mười sáu triệu](price) trở lại không
+- có điện thoại nào có giá khoảng [2,8 triệu](price) quay đầu không
+- có cái nào khoảng [1 m 7](price) trở lại không
+- có cái nào khoảng [6.7 triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [6,5 triệu](price) trở lại không
+- có cái nào khoảng [7.1 triệu](price) quay đầu không
+- có điện thoại nào có giá khoảng [mười ba triệu](price) trở lại không
+- có sản phẩm nào có giá từ [4.7 triệu](price) trở lại không
+- có cái nào khoảng [4 m 3](price) trở lại không
+- có sản phẩm nào có giá từ [hai mươi tám triệu](price) trở lại không
+- có sản phẩm nào có giá từ [1,6 triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [9,4 triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [3,5 triệu](price) quay đầu không
+- có điện thoại nào có giá khoảng [3.1 triệu](price) quay đầu không
+- có cái nào khoảng [8.9 triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [6,1 triệu](price) trở lại không
+- có sản phẩm nào có giá từ [tám triệu bốn](price) trở lại không
+- có sản phẩm nào có giá từ [hai mươi sáu triệu](price) trở lại không
+- có sản phẩm nào có giá từ [một triệu chín](price) trở lại không
+- có điện thoại nào có giá khoảng [ba triệu hai](price) quay đầu không
+- có cái nào khoảng [1,6 triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [tám triệu mốt](price) trở lại không
+- có cái nào khoảng [hai mươi bốn triệu](price) trở lại không
+- có điện thoại nào có giá khoảng [4,8 triệu](price) trở lại không
+- có cái nào khoảng [1.6 triệu](price) trở lại không
+- có sản phẩm nào có giá từ [2 m 4](price) trở lại không
+- có điện thoại nào có giá khoảng [sáu triệu rưởi](price) quay đầu không
+- có điện thoại nào có giá khoảng [9.8 triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [9 m 8](price) quay đầu không
+- có cái nào khoảng [một triệu ba](price) quay đầu không
+- có sản phẩm nào có giá từ [một triệu mốt](price) trở lại không
+- có điện thoại nào có giá khoảng [sáu triệu ba](price) trở lại không
+- có sản phẩm nào có giá từ [2 m 6](price) quay đầu không
+- có sản phẩm nào có giá từ [sáu triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [4 m 7](price) quay đầu không
+- có điện thoại nào có giá khoảng [mười sáu triệu](price) trở lại không
+- có sản phẩm nào có giá từ [tám triệu chín](price) trở lại không
+- có sản phẩm nào có giá từ [sáu triệu ba](price) quay đầu không
+- có sản phẩm nào có giá từ [5.7 triệu](price) quay đầu không
+- có sản phẩm nào có giá từ [9 m 6](price) trở lại không
+- có sản phẩm nào có giá từ [chín triệu mốt](price) quay đầu không
+- có điện thoại nào có giá khoảng [9.8 triệu](price) trở lại không
+- có sản phẩm nào có giá từ [3.3 triệu](price) quay đầu không
+- có điện thoại nào có giá khoảng [7,2 triệu](price) quay đầu không
+
+## intent: hoi_gia_tren
+- có điện thoại nào có giá khoảng [6 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [bốn triệu mốt](price) trở lên không
+- có điện thoại nào có giá khoảng [5,4 triệu](price) trở lên không
+- có cái nào khoảng [1 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [một triệu tám](price) trở lên không
+- có cái nào khoảng [6 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [tám triệu ba](price) trở lên không
+- có cái nào khoảng [tám triệu rưởi](price) trở lên không
+- có cái nào khoảng [hâm mốt triệu](price) trở lên không
+- có cái nào khoảng [1 m 8](price) trở lên không
+- có điện thoại nào có giá khoảng [5.1 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [1 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [1.6 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [2,9 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [4.5 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [bảy triệu bốn](price) trở lên không
+- có điện thoại nào có giá khoảng [2,1 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [sáu triệu bảy](price) trở lên không
+- có điện thoại nào có giá khoảng [4,6 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [1 m 6](price) trở lên không
+- có sản phẩm nào có giá từ [bảy triệu bảy](price) trở lên không
+- có sản phẩm nào có giá từ [4 m 5](price) trở lên không
+- có sản phẩm nào có giá từ [hai triệu bốn](price) trở lên không
+- có sản phẩm nào có giá từ [hâm tám triệu](price) trở lên không
+- có sản phẩm nào có giá từ [6,4 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [bốn triệu rưởi](price) trở lên không
+- có sản phẩm nào có giá từ [7.5 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [9,6 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [6,1 triệu](price) trở lên không
+- có cái nào khoảng [8,8 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [1,1 triệu](price) trở lên không
+- có cái nào khoảng [2 m 6](price) trở lên không
+- có sản phẩm nào có giá từ [6 m 4](price) trở lên không
+- có cái nào khoảng [ba triệu bốn](price) trở lên không
+- có điện thoại nào có giá khoảng [7.2 triệu](price) trở lên không
+- có điện thoại nào có giá khoảng [4,2 triệu](price) trở lên không
+- có cái nào khoảng [9 m 1](price) trở lên không
+- có điện thoại nào có giá khoảng [ba triệu hai](price) trở lên không
+- có điện thoại nào có giá khoảng [chín triệu bốn](price) trở lên không
+- có cái nào khoảng [6,6 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [7,3 triệu](price) trở lên không
+- có cái nào khoảng [5,2 triệu](price) trở lên không
+- có sản phẩm nào có giá từ [chín triệu hai](price) trở lên không
+- có điện thoại nào có giá khoảng [8 m 6](price) trở lên không
+- có sản phẩm nào có giá từ [chín triệu ba](price) trở lên không
+- có sản phẩm nào có giá từ [5 m 5](price) trở lên không
+- có sản phẩm nào có giá từ [ba triệu bảy](price) trở lên không
+- có điện thoại nào có giá khoảng [năm triệu mốt](price) trở lên không
+- có cái nào khoảng [8.4 triệu](price) trở lên không
+- có cái nào trên [5.1 triệu](price) không
+- có điện thoại nào giá trên [hai triệu tư](price) không
+- có điện thoại nào giá trên [5 m 8](price) không
+- có điện thoại nào có giá hơn [ba triệu bốn](price) không
+- có sản phẩm nào có giá trên [hai triệu tư](price) không
+- có điện thoại nào có giá hơn [3.3 triệu](price) không
+- có điện thoại nào giá trên [mười sáu triệu](price) không
+- có điện thoại nào có giá hơn [3.2 triệu](price) không
+- có điện thoại nào giá trên [9,2 triệu](price) không
+- có điện thoại nào có giá hơn [4 m 9](price) không
+- có điện thoại nào có giá hơn [6 m 8](price) không
+- có cái nào trên [3 m 9](price) không
+- có cái nào trên [8.8 triệu](price) không
+- có sản phẩm nào có giá trên [8 m 3](price) không
+- có điện thoại nào giá trên [2,2 triệu](price) không
+- có cái nào trên [9.4 triệu](price) không
+- có điện thoại nào có giá hơn [4,1 triệu](price) không
+- có điện thoại nào có giá hơn [4,1 triệu](price) không
+- có sản phẩm nào có giá trên [6.9 triệu](price) không
+- có điện thoại nào giá trên [8 m 1](price) không
+- có điện thoại nào giá trên [8 m 6](price) không
+- có điện thoại nào giá trên [6.4 triệu](price) không
+- có điện thoại nào giá trên [ba triệu rưởi](price) không
+- có sản phẩm nào có giá trên [1 triệu](price) không
+- có cái nào trên [một triệu tư](price) không
+- có cái nào trên [4 m 9](price) không
+- có cái nào trên [5 m 1](price) không
+- có cái nào trên [7.3 triệu](price) không
+- có điện thoại nào có giá hơn [ba triệu tám](price) không
+- có điện thoại nào có giá hơn [8,5 triệu](price) không
+- có sản phẩm nào có giá trên [7,2 triệu](price) không
+- có cái nào trên [3,6 triệu](price) không
+- có sản phẩm nào có giá trên [6,2 triệu](price) không
+- có điện thoại nào có giá hơn [3 m 6](price) không
+- có sản phẩm nào có giá trên [4 m 1](price) không
+- có điện thoại nào có giá hơn [sáu triệu tám](price) không
+- có sản phẩm nào có giá trên [6.8 triệu](price) không
+- có điện thoại nào giá trên [5 m 4](price) không
+- có điện thoại nào có giá hơn [8.1 triệu](price) không
+- có điện thoại nào giá trên [hai mươi ba triệu](price) không
+- có sản phẩm nào có giá trên [4 m 3](price) không
+- có sản phẩm nào có giá trên [6,8 triệu](price) không
+- có sản phẩm nào có giá trên [3.8 triệu](price) không
+- có điện thoại nào giá trên [hai mươi sáu triệu](price) không
+- có điện thoại nào giá trên [3.7 triệu](price) không
+- có điện thoại nào giá trên [3.9 triệu](price) không
+- có điện thoại nào giá trên [6.9 triệu](price) không
+- có cái nào trên [mười lăm triệu](price) không
+- có cái nào trên [7 m 1](price) không
+
+## intent:Hoi_co_ny_chua
+- có ny chưa
+- có người yêu chưa
+- có ai yêu chưa
+- bot có người yêu chưa
+- ad có người yêu chưa
+- bạn có người yêu chưa
+
+## intent:Solo_yasuo
+- solo yasuo không
+- làm kèo yauso không
+- solo đấng không
+- solo daxua đi bot
+- solo daxua nào
+
+## intent: hoi_chuc_nang_cua_bot
+- bạn có thể làm được những gì
+- bot làm được những việc gì
+- bot có thể làm gì
+- ad có thể làm gì
+- mày làm được gì
+- em có thể làm những gì nhỉ
+- em có chức năng gì?
+- em giúp gì được anh không?
+- bạn có thể  làm gì?
+- em có thể giúp gì cho anh?
+- bạn biết hát không ?
+- bạn biết xem lịch học ah?
+- em biết làm gì?
+- em hỗ trợ anh như thế nào?
+- cho anh xem các chức năng của em
+
+## intent: hoi_bot_la_gi
+- bot là gì
+- bot là ai
+- ai đang trả lời vậy
+- bạn là ai
+- cậu là ai
+
+## intent: hoi_sp_quanh_1_muc_gia
+- có điện thoại nào tầm [7,7 triệu](price) không
+- có điện thoại nào trên dưới [8,9 triệu](price) không ạ
+- có điện thoại nào khoảng [3,1 triệu](price) không giới thiệu cho em với
+- có cái nào khoảng [bốn triệu chín](price) gì đó tư vấn giúp em
+- có điện thoại nào trên dưới [ba triệu tám](price) gì đó không
+- có điện thoại nào khoảng [7,6 triệu](price) gì đó không
+- có cái nào khoảng [4,8 triệu](price) gì đó không
+- có sản phẩm nào khoảng [8 m 5](price) không ạ
+- có cài nào tầm [5,6 triệu](price) không
+- có điện thoại nào tầm [6,6 triệu](price) không
+- có cài nào trên dưới [một triệu rưởi](price) không
+- có cài nào trên dưới [6 m 6](price) gì đó tư vấn giúp em
+- có điện thoại nào tầm [5 triệu](price) không giới thiệu cho em với
+- có cái nào khoảng [sáu triệu ba](price) không giới thiệu cho em với
+- có sản phẩm nào khoảng [9,3 triệu](price) không
+- có điện thoại nào trên dưới [5 m 9](price) không giới thiệu cho em với
+- có cái nào khoảng [7 m 8](price) không giới thiệu cho em với
+- có cài nào tầm [4 triệu 4](price) không giới thiệu cho em với
+- có cài nào tầm [hâm chín triệu](price) 
+- có điện thoại nào khoảng [8 m 7](price) không
+- có sản phẩm nào khoảng [một triệu năm](price) gì đó tư vấn giúp em
+- có điện thoại nào khoảng [5 triệu](price) không giới thiệu cho em với
+- có điện thoại nào tầm [bốn triệu năm](price) gì đó không
+- có điện thoại nào tầm [3 m 9](price) gì đó tư vấn giúp em
+- có điện thoại nào khoảng [6 triệu 6](price) gì đó tư vấn giúp em
+- có cái nào khoảng [5 triệu rưởi](price) không ạ
+- có điện thoại nào tầm [1,9 triệu](price) gì đó không
+- có điện thoại nào tầm [hai mươi bốn triệu](price) gì đó không
+- có cái nào khoảng [sáu triệu mốt](price) không
+- có cài nào trên dưới [7,8 triệu](price) không giới thiệu cho em với
+- có điện thoại nào tầm [bảy triệu bốn](price) gì đó tư vấn giúp em
+- có cài nào tầm [7 m 1](price) gì đó tư vấn giúp em
+- có điện thoại nào trên dưới [9,5 triệu](price) 
+- có điện thoại nào tầm [hai mươi tám triệu](price) không ạ
+- có điện thoại nào khoảng [1 triệu 1](price) gì đó tư vấn giúp em
+- có điện thoại nào trên dưới [hâm hai triệu](price) 
+- có cài nào trên dưới [ba triệu mốt](price) gì đó không
+- có điện thoại nào khoảng [8,7 triệu](price) gì đó không
+- có điện thoại nào tầm [mười bảy triệu](price) 
+- có cài nào tầm [hai mươi bốn triệu](price) không
+- có cài nào tầm [chín triệu mốt](price) gì đó không
+- có cái nào khoảng [4,4 triệu](price) không
+- có cái nào khoảng [ba triệu sáu](price) 
+- có cái nào khoảng [sáu triệu bảy](price) gì đó không
+- có sản phẩm nào khoảng [9 m 7](price) không ạ
+- có điện thoại nào trên dưới [5 m 6](price) gì đó không
+- có điện thoại nào trên dưới [7 triệu 7](price) không ạ
+- có điện thoại nào tầm [5 m 7](price) không
+- có cài nào tầm [5,7 triệu](price) 
+- có điện thoại nào khoảng [sáu triệu tám](price) không ạ
+- có sản phẩm nào khoảng [năm triệu chín](price) không giới thiệu cho em với
+- có điện thoại nào tầm [4,1 triệu](price) 
+- có sản phẩm nào khoảng [2,5 triệu](price) không giới thiệu cho em với
+- có cài nào trên dưới [1 m 7](price) không
+- có điện thoại nào trên dưới [5,1 triệu](price) gì đó không
+- có sản phẩm nào khoảng [7 m 2](price) gì đó không
+- có điện thoại nào khoảng [4,7 triệu](price) không giới thiệu cho em với
+- có cái nào khoảng [hâm lăm triệu](price) không
+- có điện thoại nào tầm [7 m 4](price) không giới thiệu cho em với
+- có cài nào tầm [2,4 triệu](price) 
+- có sản phẩm nào khoảng [6,3 triệu](price) gì đó tư vấn giúp em
+- có cái nào khoảng [3,2 triệu](price) gì đó không
+- có cài nào trên dưới [năm triệu sáu](price) gì đó không
+- có điện thoại nào khoảng [7 m 9](price) gì đó không
+- có điện thoại nào tầm [2 triệu 2](price) gì đó không
+- có cài nào tầm [6,9 triệu](price) gì đó không
+- có sản phẩm nào khoảng [7,8 triệu](price) gì đó tư vấn giúp em
+- có cái nào khoảng [bảy triệu ba](price) không giới thiệu cho em với
+- có điện thoại nào trên dưới [mười ba triệu](price) không giới thiệu cho em với
