@@ -1196,7 +1196,7 @@ data/price.txt
 - em có thể làm những gì nhỉ
 - em có chức năng gì?
 - em giúp gì được anh không?
-- bạn có thể  làm gì?
+- bạn có thể làm gì?
 - em có thể giúp gì cho anh?
 - bạn biết hát không ?
 - bạn biết xem lịch học ah?
@@ -1288,7 +1288,7 @@ data/price.txt
 - màn hình của [Nokia 105 Single Sim (2017)](product_name) là màn hình gì?
 - [Masstel Fami P25](product_name) sử dụng màn hình gì?
 - [Samsung Galaxy A80](product_name) sử dụng màn hình gì?
-- Màn hình của [ss  10](product_name) là màn hình loại nào
+- Màn hình của [ss 10](product_name) là màn hình loại nào
 - [ss a10s](product_name) sử dụng công nghệ màn hình gì?
 - [ss a20s](product_name) sử dụng màn hình gì?
 - Màn hình của [Itel It2580](product_name) là màn hình loại nào
@@ -1324,3 +1324,172 @@ data/price.txt
 - [Realme C3i ](product_name) sử dụng pin gì?
 - pin của [ss m40](product_name) dùng được lâu không?
 - pin của [Realme X3](product_name) có dung lượng bao nhiêu?
+- điện thoại này sử dụng pin nào
+- sản phầm này dùng pin nào
+- pin của điện thoại này là pin gì
+- pin được lâu không
+- pin dùng được bao lâu
+- pin dùng được lâu không
+
+## intent: thu_mua_may_cu
+- shop thu mua [Huawei Mate 30 Pro 5G](product_name) cũ lại với giá bao nhiêu
+- [Vivo Y50](product_name) cũ bán được bao nhiêu?
+- shop thu mua [Xiaomi Mi Note 10 Pro](product_name) cũ lại với giá bao nhiêu
+- [OPPO A91](product_name) cũ shop mua lại với giá bao nhiêu?
+- [Xiaomi Mi Note 10 Pro](product_name) cũ bán được bao nhiêu?
+- shop thu mua [iPhone 11](product_name) cũ lại với giá bao nhiêu
+- [ss a01](product_name) cũ bán được bao nhiêu?
+- [Huawei Y7p](product_name) cũ bán được bao nhiêu?
+- shop thu mua [realme c3](product_name) cũ lại với giá bao nhiêu
+- shop thu mua [ss a21](product_name) cũ lại với giá bao nhiêu
+- [Masstel Hapi 10 Fami](product_name) cũ bán được bao nhiêu?
+- điện thoại [realme x50 youth edition](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- [Realme Narzo 10A](product_name) cũ bán được bao nhiêu?
+- điện thoại [Vsmart Joy 3](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- điện thoại [Nokia 5310 ](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- [ss a90 5g](product_name) cũ shop mua lại với giá bao nhiêu?
+- [Nokia 8.3 5G](product_name) cũ shop mua lại với giá bao nhiêu?
+- [Huawei Y9s](product_name) cũ shop mua lại với giá bao nhiêu?
+- [Masstel Fami S2](product_name) cũ bán được bao nhiêu?
+- shop thu mua [Itel It6120](product_name) cũ lại với giá bao nhiêu
+- điện thoại [OPPO Reno 3 Vitality](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- [ss a21](product_name) cũ bán được bao nhiêu?
+- [Huawei P40 Lite 5G](product_name) cũ bán được bao nhiêu?
+- shop thu mua [Realme 5](product_name) cũ lại với giá bao nhiêu
+- điện thoại [Realme 5 Pro](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- [Vivo S6](product_name) cũ bán được bao nhiêu?
+- điện thoại [OPPO Reno4](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- điện thoại [Nokia 5.3](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- shop thu mua [Vivo U20](product_name) cũ lại với giá bao nhiêu
+- điện thoại [Samsung Galaxy A30s](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- shop thu mua [Realme X50m 5G](product_name) cũ lại với giá bao nhiêu
+- shop thu mua [Huawei Y7 Pro](product_name) cũ lại với giá bao nhiêu
+- điện thoại [OPPO Reno 3 Vitality](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- shop thu mua [ss a71](product_name) cũ lại với giá bao nhiêu
+- shop thu mua [Samsung Galaxy M01](product_name) cũ lại với giá bao nhiêu
+- điện thoại [Samsung Galaxy Note 10](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- shop thu mua [Samsung Galaxy M21](product_name) cũ lại với giá bao nhiêu
+- shop thu mua [Xiaomi Mi 10 Youth Edition](product_name) cũ lại với giá bao nhiêu
+- shop thu mua [Samsung Galaxy Note 10+](product_name) cũ lại với giá bao nhiêu
+- [Masstel Fami P25](product_name) cũ shop mua lại với giá bao nhiêu?
+- [iPhone 11 Pro](product_name) cũ bán được bao nhiêu?
+- điện thoại [Huawei P30 Pro New Edition](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- shop thu mua [Xiaomi Redmi K30i](product_name) cũ lại với giá bao nhiêu
+- shop thu mua [Nokia 5310 ](product_name) cũ lại với giá bao nhiêu
+- điện thoại [Samsung Galaxy M31s](product_name) cũ shop thu lại bao nhiêu tiền vậy?
+- [Realme X2 Pro](product_name) cũ shop mua lại với giá bao nhiêu?
+- [ss a50s](product_name) cũ shop mua lại với giá bao nhiêu?
+- [ss a10](product_name) cũ shop mua lại với giá bao nhiêu?
+
+## intent: do_tuoi_tra_gop
+- e mới 19 tuổi được mua trả góp samsung a11 k ạ
+- sinh viên trên 18t mua trả góp dc ko ad
+- 19t trả góp được không ạ
+- Phãi trên 20 tuổi ms dc mua trả góp à anh
+- Bao nhiêu tuổi thì được trả góp vậy
+- mấy tuổi thì được tham gia trả góp
+- bao nhiêu tuổi thì được mua trả góp
+- em đủ 18 tuổi có được mua trả góp hay không
+- bây giờ em 24 tuổi được mua trả góp chưa
+- 24 tuổi được trả góp chưa?
+- em 24 tuổi trả góp được không
+- 17 tuổi có được mua trả góp hay không
+- em 19 tuổi trả góp được không
+- cho hỏi 21 tuổi trả góp được không
+- bây giờ em 25 tuổi có được mua trả góp hay không
+- cho hỏi 19 tuổi có được mua trả góp hay không
+- cho hỏi 24 tuổi được trả góp chưa?
+- em năm nay 24 tuổi được trả góp chưa?
+- hiện tại em đủ 20 tuổi được trả góp chưa?
+- hiện tại em đủ 24 tuổi được trả góp chưa?
+- cho hỏi 20 tuổi được trả góp chưa?
+- cho hỏi 23 tuổi có được mua trả góp hay không
+- cho hỏi 20 tuổi trả góp được không
+- cho hỏi 21 tuổi được mua trả góp chưa
+- em đủ 19 tuổi được trả góp chưa?
+- 24 tuổi được trả góp chưa?
+- em đủ 17 tuổi được trả góp chưa?
+- bây giờ em 25 tuổi được trả góp chưa?
+- bây giờ em 22 tuổi trả góp được không
+- bây giờ em 17 tuổi có được mua trả góp hay không
+- em đủ 18 tuổi trả góp được không
+- em 23 tuổi được trả góp chưa?
+- hiện tại em đủ 24 tuổi được mua trả góp chưa
+- em 20 tuổi có được mua trả góp hay không
+- em 20 tuổi được trả góp chưa?
+- 22 tuổi được trả góp chưa?
+- Người trả góp yêu cầu từ độ tuổi bao vậy 18 t đc k
+
+## intent: giay_to_khi_tra_gop
+- Em dùng giấy cm của chị và hộ khẩu gia đình em đi mua trả góp dc k ạ
+- khi mua trả góp cần những giấy tờ nào
+- khi đăng ký trả góp cần giấy tờ gì
+- cần những loại giấy tờ gì khi tham gia trả góp
+- cần giấy tờ gì để mua trả góp
+- trả góp chỉ cần chứng minh nhân dân thôi phải không ạ
+- trả góp chỉ cần chứng minh nhân dân và bằng lái xe thôi phải không ạ
+- Trả góp chỉ cần chứng minh nhân dân và bằng lái xe thôi phải không
+- Trả góp gồm cmt + sổ hộ khẩu bản gốc hay f tô
+- e muốn trả góp có cmnd vs gplx dc ko ạ
+- Shop cho hỏi là mua trả góp thì hộ khẩu pho to công chứng dc k?
+- Cmt và bằng lái xe được ko ạ
+- Chỉ cần cm vs hộ khẩu. Có cần gì nữa ko ad.
+- Mình ko có hộ khẩu photo chỉ có chứng minh vs bằng lái xe thì có dc tham gia trương trình mua trả góp được không?
+- chỉ cân CMTND ko cần hô khâu có mua tra gop duoc ko ban
+- sẵn cho e hỏi trả góp sv cần giấy tờ j lun ad
+- cho e hỏi trên 20t trả góp cần giấy tờ j z ad??
+- Góp có cần sđt ng thân ko ạ?
+- Em có cmt vs bằg lái xe thôi có trả góp đk k ạg
+- CMND và bằng lái hkpt có đc k ạ
+- Qtv cần những giầy tờ gì để trả góp 0 đồng
+- không có bằng lái xe mua trả góp được không nhỉ
+- Cho e hỏi mua trả góp thì sổ hộ khẩu photo có công chứng+CMND co được ko ạ
+- 
+
+## intent: tra_gop_hai_hay_nhieu_ho_so
+- Em đang vay trả góp của home edit. Vậy có thể mua trả góp được tiếp không ad?
+- Mua góp 2 cái một lần. Có dk ko ad oi
+
+## intent: san_pham_duoc_tra_gop_hay_khong
+## intent: mua_online_duoc_tra_gop_khong
+- Cho em hỏi mua onl có đk trả góp ko ạ???
+## intent: mua_cu_duoc_tra_gop_khong
+
+## intent: tra_truoc_tra_gop
+- Trả [10%](prepay_percent) , cmnd + bằng lái đc hk 
+- Máy có hỗ trở trả góp [0%](prepay_percent) tại cửa hàng không có sản phẩm không ad
+
+## intent:lai_suat_khi_tra_gop
+- C nếu góp trả trước [0%](prepay_percent) vậy lải cao k c
+
+## intent: thoi_gian_dang_ky_tra_gop
+- Cho m hỏi thủ tục trả góp nhanh không ạ! Trong ngày m có thể lấy máy k
+
+## intent: dieu_kien_tra_gop_0_dong
+- Mình có CMND và bằng lái xe có thể mua trả góp 0₫ không ạ?
+
+## intent: san_pham_duoc_tra_gop_khong_lai_suat
+- Máy này có trả góp 0% ko
+
+## intent: cach_mua_tra_gop
+- mua tra gop the nao day bab
+
+## intent: dung_giay_to_cua_nguoi_than_tra_gop
+- Cho em hỏi em muốn mua máy trả góp , em chưa đủ 20 tuổi , cho em hỏi em có thể dùng giấy tờ của bố ( mẹ ) để mua máy được không ạ ?
+
+
+## synonym: chứng minh nhân dân
+- cmt
+- cmnd
+- CMT
+- CMND
+- chứng minh thư
+- chứng minh nhân dân
+- chứng minh thư nhân dân
+
+## synonym: bằng lái xe
+- bằng lái xe
+- bằng lái
+- gplx
+- giấy phép lái xe
+- BLX
