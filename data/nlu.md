@@ -1382,6 +1382,12 @@ data/price.txt
 - [ss a10](product_name) cũ shop mua lại với giá bao nhiêu?
 
 ## intent: do_tuoi_tra_gop
+- la sv tra gop tra trc 20 % dc k ad ??
+- Em hiện là sinh viên, đủ 20 tuổi có cmnd và bằng lái xe thì có mua trả góp được không ạh?
+- 19 tuổi mua trả góp được ko ạ
+- 19 tuôi mua trã góp đuoc hong vay
+- Qtv cho em hỏi xíu. em định mua trả góp điện thoại nhưng cmnd em chưa đủ 20 em có mua hàng được không ạ
+- Chi lm on cho e hoi e mua dt tra gop dc ko a
 - e mới 19 tuổi được mua trả góp samsung a11 k ạ
 - sinh viên trên 18t mua trả góp dc ko ad
 - 19t trả góp được không ạ
@@ -1421,6 +1427,11 @@ data/price.txt
 - Người trả góp yêu cầu từ độ tuổi bao vậy 18 t đc k
 
 ## intent: giay_to_khi_tra_gop
+- Ad cho e hỏi mua trả góp cần hộ khẩu photo hay hộ khẩu bản chính ạ
+- Chỉ có cmnd Không có bằng lái Không có sổ hộ khẩu có trả góp Được Không vậy
+- QTV ơi em muốn mua trả góp 0% sản phảm mobiistrar prime x1 mà em chỉ có giấy CMNN được kg vậy QTV
+- Mà em có hộ khẩu với cmnd thì có trả góp đc ko ạ
+- oppo a37 den mua tra gop can nhung giay to j b
 - Em dùng giấy cm của chị và hộ khẩu gia đình em đi mua trả góp dc k ạ
 - khi mua trả góp cần những giấy tờ nào
 - khi đăng ký trả góp cần giấy tờ gì
@@ -1447,36 +1458,92 @@ data/price.txt
 - 
 
 ## intent: tra_gop_hai_hay_nhieu_ho_so
+- QTV cho nếu e dùng 1sổ hộ khẩu+CMND mua trả góp 2 sp chung đc k ạ
+- mình đang trả góp bên ngân hàng fe kỳ hạn là 4 tháng nhưng mình trả dc hai tháng rồi vậy có dc mua trả góp 0% sản phẩm này ko vậy.
+- Chào bạn..hiện tai mình đang có hồ sơ vay bên FE thì có được mua trả góp nữa không vậy
+- Cho e hỏi e muốn mua trả góp trả trc 0đ đc k ạ.. hiện tại e đang trả góp bên fe credit..
+- E muon tra gop djen thoai nay dk k?tai vj e dag gop dt oppo A39 dk 2 thang ui o fptshop ak
 - Em đang vay trả góp của home edit. Vậy có thể mua trả góp được tiếp không ad?
 - Mua góp 2 cái một lần. Có dk ko ad oi
 
 ## intent: san_pham_duoc_tra_gop_hay_khong
+- Máy mobiistar x1 có trả góp 0đ không shop
+- Máy này có bán trả góp không
+- Ko hỗ trợ trả góp ak shop
+- máy này có bán trả góp không bạn?
+- cho em hoi [samsung a10](product_name) CO BAN TRA GOP KO ?
+
 ## intent: mua_online_duoc_tra_gop_khong
 - Cho em hỏi mua onl có đk trả góp ko ạ???
+
 ## intent: mua_cu_duoc_tra_gop_khong
+- may doi tra mua tra gop dc ko?
 
 ## intent: tra_truoc_tra_gop
+- Có gói trả trước dưới [500k]{"entity":"price","role":"prepay"} ko ak
 - Trả [10%](prepay_percent) , cmnd + bằng lái đc hk 
 - Máy có hỗ trở trả góp [0%](prepay_percent) tại cửa hàng không có sản phẩm không ad
 
 ## intent:lai_suat_khi_tra_gop
+- Mình trả góp lãi suất tính như thế nào ạ? Có cần trả trước không shop?
 - C nếu góp trả trước [0%](prepay_percent) vậy lải cao k c
 
 ## intent: thoi_gian_dang_ky_tra_gop
 - Cho m hỏi thủ tục trả góp nhanh không ạ! Trong ngày m có thể lấy máy k
 
 ## intent: dieu_kien_tra_gop_0_dong
+- Cho mình hỏi, nếu chỉ có cmnd và hộ khẩu có thể mua trả trước 0đ không
 - Mình có CMND và bằng lái xe có thể mua trả góp 0₫ không ạ?
 
+## intent: cac_goi_tra_gop
+- ad cho em hỏi có gối nào trả góp trong [6 tháng](month), trả trước [không đồng]{"entity":"price","role":"prepay"}, có chứng minh với băng lái
+- ĐT này có trả trước [0d]{"entity":"price","role":"prepay"} lãi suất [0%](interest_rate) k shop
+- Nếu trả trước [30%](prepay_percent) và góp tfong [6t](month) thì bn
+- trả góp [0%](prepay_percent) trong [4 tháng](month) thì thế nào vậy Shop?
+- có gói trả góp trả trước [30%](prepay_percent) k v
+- Em muốn mua dt a37fw den tra góp tra trước [20%](prepay_percent) va lai suất [0 %](interest_rate) trong vong 4 thang co dc a.
+- Chị ơi e mua góp đóng [4 tháng](month) được ko
+- Bằng lái xe + cmnd.Em mún trả góp [10%](prepay_percent) kỳ hạn [6 thang](month) được không ad
+- cho minh hoi minh mua tra gop trả trước [20%](prepay_percent) mình trả trong [6 thang](month) có được không
+
 ## intent: san_pham_duoc_tra_gop_khong_lai_suat
+- Dc mua trả gop k vay b
+- May nay co tra gop 0% ko ạ
 - Máy này có trả góp 0% ko
+- [iphone 8](product_name) co tra gop 0% kg
 
 ## intent: cach_mua_tra_gop
+- mua trả góp như thế nào đây shop
+- Mình ở hiệp hòa bác giang. Có CMTND+ BLX mua ko cần trả trước dc ko ạ
+- em muon mua tra gop thi am sao ak
+- mua tra gop can thu tuc ji za a
+- Mình trả góp lãi suất tính như thế nào ạ? Có cần trả trước không shop?
+- e muốn mua trả góp 0% lãi suất máy prime x1 cần thủ tục gì ạ? có bắt buộc phải có sổ hộ khẩu ko?
+- Trả góp bên fe trong mấy tháng vậy ạ
+- có hình thức trả góp cho sinh viên k v ad
+- Cái này hình thức trả góp thế nào shop
+- chị ơi e muốn mua trả góp tại shop thi lại làm thủ tục s ạ. trả trước 40%, gói học sinh sinh viên, trả trong 12 tháng. tks trk ạ
+- Chính sách trả góp như thế nào hả shop
+-  Cho e hỏi nếu mình muốn mua trả góp opop A37 neo9 thì phải trả trước bảo nhiều hàng tháng phải Thanh toán Ca lãi với gốc là mấy tiền.. Thủ tục trả góp thế nào..
+- Minh muon mua tra gop thi ti h nhu the nao vay
 - mua tra gop the nao day bab
+- Phuong thuc tra gop nhu the nao
+- em muon mua trả góp cái [samsung note 10](product_name). không biết thủ tục và cách thức như thế nào ạ
 
 ## intent: dung_giay_to_cua_nguoi_than_tra_gop
+- Ad cho em ? nếu em chưa có bằng lai xe em lấy bằng lái xe của anh hoặc chị của em với cmnd của em để dk mua trả gop vậy có đc ko ạ ?
 - Cho em hỏi em muốn mua máy trả góp , em chưa đủ 20 tuổi , cho em hỏi em có thể dùng giấy tờ của bố ( mẹ ) để mua máy được không ạ ?
 
+## intent: tien_dong_hang_thang
+- - Cho mình hỏi mobiistar prime x1 có hỗ ta trả góp [0%](prepay_percent) ko ạ nếu trả góp 0% thì mỗi tháng cần trả bao nhiêu vậy
+- Oppo a37 trả góp [0%](prepay_percent) được k mà trả [một năm](month) một tháng bao nhiêu tiền
+- Oppo A 37 đen này trả trước [0%](prepay_percent) được k tháng trả bao nhiêu tiền
+- mua trả góp trả trước [1t5]{"entity":"price","role":"prepay"} trả góp [4 tháng](month) thì 1 tháng trả bao nhiêu ad
+- Tra gop [6 thang](month) mỗi tháng nhiu v shop
+- mình muốn mua trả góp, mỗi tháng phai trả bao nhiêu tiền hả shop ?
+
+## intent: giao_hang
+- Ad cho hỏi là. Mua trả góp có hỗ trợ giao hàng tận nơi không ạ.
 
 ## synonym: chứng minh nhân dân
 - cmt

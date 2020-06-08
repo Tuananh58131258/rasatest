@@ -11,7 +11,7 @@ sau = ['được trả góp chưa?', 'có được mua trả góp hay không', '
 for i in range(1, 30):
 
        tuoi = str(random.randint(17,25)) + " tuổi"
-       # ten = data[random.randint(0,len(data)-1)].strip('\n')
+       ten = data[random.randint(0,len(data)-1)].strip('\n')
        # template = ['[{}](age) được trả góp chưa?']
        # temp = truoc[random.randint(0,2)]+" ["+ten[random.randint(0,n-1)].strip('\n') + "](product_name) "+ sau[random.randint(0,3)]
        # temp = temp.strip(' ')
